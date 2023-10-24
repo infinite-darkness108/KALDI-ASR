@@ -1,0 +1,16 @@
+# nnet3-get-egs --num-pdfs=1280 --frame-subsampling-factor=1 --left-context=40 --right-context=7 --compress=true --num-frames=20 "ark,s,cs:utils/filter_scp.pl --exclude exp_FG/LSTM/egs/valid_uttlist data/train/split6/2/feats.scp | apply-cmvn  --utt2spk=ark:data/train/split6/2/utt2spk scp:data/train/split6/2/cmvn.scp scp:- ark:- |" "ark,s,cs:filter_scp.pl data/train/split6/2/utt2spk exp_FG/LSTM/egs/ali.scp | ali-to-pdf exp_FG/tri_8_2000_ali/final.mdl scp:- ark:- | ali-to-post ark:- ark:- |" ark:- | nnet3-copy-egs --random=true --srand=$[2+0] ark:- ark:exp_FG/LSTM/egs/egs_orig.2.1.ark ark:exp_FG/LSTM/egs/egs_orig.2.2.ark ark:exp_FG/LSTM/egs/egs_orig.2.3.ark 
+# Started at Thu Aug  3 11:13:50 IST 2023
+#
+nnet3-copy-egs --random=true --srand=2 ark:- ark:exp_FG/LSTM/egs/egs_orig.2.1.ark ark:exp_FG/LSTM/egs/egs_orig.2.2.ark ark:exp_FG/LSTM/egs/egs_orig.2.3.ark 
+nnet3-get-egs --num-pdfs=1280 --frame-subsampling-factor=1 --left-context=40 --right-context=7 --compress=true --num-frames=20 'ark,s,cs:utils/filter_scp.pl --exclude exp_FG/LSTM/egs/valid_uttlist data/train/split6/2/feats.scp | apply-cmvn  --utt2spk=ark:data/train/split6/2/utt2spk scp:data/train/split6/2/cmvn.scp scp:- ark:- |' 'ark,s,cs:filter_scp.pl data/train/split6/2/utt2spk exp_FG/LSTM/egs/ali.scp | ali-to-pdf exp_FG/tri_8_2000_ali/final.mdl scp:- ark:- | ali-to-post ark:- ark:- |' ark:- 
+apply-cmvn --utt2spk=ark:data/train/split6/2/utt2spk scp:data/train/split6/2/cmvn.scp scp:- ark:- 
+ali-to-post ark:- ark:- 
+ali-to-pdf exp_FG/tri_8_2000_ali/final.mdl scp:- ark:- 
+LOG (ali-to-pdf[5.5.1074~1-71f3]:main():ali-to-pdf.cc:68) Converted 584 alignments to pdf sequences.
+LOG (ali-to-post[5.5.1074~1-71f3]:main():ali-to-post.cc:73) Converted 584 alignments.
+LOG (apply-cmvn[5.5.1074~1-71f3]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 526 utterances, errors on 0
+LOG (nnet3-get-egs[5.5.1074~1-71f3]:~UtteranceSplitter():nnet-example-utils.cc:373) Split 526 utts, with total length 172946 frames (0.480406 hours assuming 100 frames per second) into 8721 chunks.
+LOG (nnet3-get-egs[5.5.1074~1-71f3]:~UtteranceSplitter():nnet-example-utils.cc:383) Average chunk length was 20 frames; overlap between adjacent chunks was 1.23738% of input length; length of output was 100.852% of input length (minus overlap = 99.6149%).
+LOG (nnet3-copy-egs[5.5.1074~1-71f3]:main():nnet3-copy-egs.cc:431) Read 8721 neural-network training examples, wrote 8721, 0 examples had errors.
+# Accounting: time=1 threads=1
+# Ended (code 0) at Thu Aug  3 11:13:51 IST 2023, elapsed time 1 seconds

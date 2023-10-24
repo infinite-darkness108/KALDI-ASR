@@ -1,0 +1,178 @@
+# nnet3-latgen-faster --frames-per-chunk=50 --extra-left-context=0 --extra-right-context=0 --extra-left-context-initial=-1 --extra-right-context-final=-1 --minimize=false --max-active=7000 --min-active=200 --beam=15.0 --lattice-beam=8.0 --acoustic-scale=0.1 --allow-partial=true --word-symbol-table=exp_FG/LSTM/words.txt exp_FG/LSTM/final.mdl exp_FG/LSTM/HCLG.fst "ark,s,cs:apply-cmvn  --utt2spk=ark:data/test/split10/8/utt2spk scp:data/test/split10/8/cmvn.scp scp:data/test/split10/8/feats.scp ark:- |" "ark:|gzip -c >exp_FG/LSTM/decode/lat.8.gz" 
+# Started at Thu Aug  3 11:46:13 IST 2023
+#
+nnet3-latgen-faster --frames-per-chunk=50 --extra-left-context=0 --extra-right-context=0 --extra-left-context-initial=-1 --extra-right-context-final=-1 --minimize=false --max-active=7000 --min-active=200 --beam=15.0 --lattice-beam=8.0 --acoustic-scale=0.1 --allow-partial=true --word-symbol-table=exp_FG/LSTM/words.txt exp_FG/LSTM/final.mdl exp_FG/LSTM/HCLG.fst 'ark,s,cs:apply-cmvn  --utt2spk=ark:data/test/split10/8/utt2spk scp:data/test/split10/8/cmvn.scp scp:data/test/split10/8/feats.scp ark:- |' 'ark:|gzip -c >exp_FG/LSTM/decode/lat.8.gz' 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:RemoveOrphanNodes():nnet-nnet.cc:948) Removed 0 orphan nodes.
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:RemoveOrphanComponents():nnet-nnet.cc:847) Removing 0 orphan components.
+apply-cmvn --utt2spk=ark:data/test/split10/8/utt2spk scp:data/test/split10/8/cmvn.scp scp:data/test/split10/8/feats.scp ark:- 
+MC03_100 mazhai mugam kaanxaada payirxeu uruppadxaadeu 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_100 is 0.340254 over 331 frames.
+MC03_103 kattiyait tiitxtxaamee puttiyait tiitxtxeu 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_103 is 0.366574 over 328 frames.
+MC03_105 manam tirxanddeu peeseu 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_105 is 0.288024 over 237 frames.
+MC03_106 manxal kayirxeu 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_106 is 0.284396 over 146 frames.
+MC03_119 paanam 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_119 is 0.211492 over 127 frames.
+MC03_129 karam 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_129 is 0.201046 over 93 frames.
+MC03_132 pakkam 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_132 is 0.20258 over 135 frames.
+MC03_136 padakkam 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_136 is 0.22319 over 126 frames.
+MC03_137 ndaadam 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_137 is 0.295512 over 102 frames.
+MC03_138 tazhii 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_138 is 0.264467 over 115 frames.
+MC03_143 sidambaram 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_143 is 0.309298 over 146 frames.
+MC03_144 tanggam 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_144 is 0.235156 over 142 frames.
+MC03_145 maadam 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_145 is 0.312503 over 91 frames.
+MC03_147 kattirikkaay 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_147 is 0.24461 over 193 frames.
+MC03_149 kambeu 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_149 is 0.293992 over 104 frames.
+MC03_151 karumbeu 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_151 is 0.268703 over 93 frames.
+MC03_153 kalwi 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_153 is 0.29478 over 102 frames.
+MC03_154 kadxidam 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_154 is 0.276862 over 93 frames.
+MC03_156 senggamalam 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_156 is 0.288295 over 144 frames.
+MC03_160 paambeu 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_160 is 0.32408 over 102 frames.
+MC03_162 bakti 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_162 is 0.223363 over 124 frames.
+MC03_165 panxiweu 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_165 is 0.263775 over 135 frames.
+MC03_170 sanddiran 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_170 is 0.300456 over 122 frames.
+MC03_172 sendndiir 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_172 is 0.328895 over 115 frames.
+MC03_175 puttagam 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_175 is 0.248938 over 120 frames.
+MC03_178 taniyaa 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_178 is 0.288306 over 160 frames.
+MC03_182 punidam 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_182 is 0.208242 over 142 frames.
+MC03_185 magudxi 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_185 is 0.238369 over 142 frames.
+MC03_193 ndaan 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_193 is 0.235367 over 107 frames.
+MC03_2 anbee kadxawulx 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_2 is 0.267734 over 164 frames.
+MC03_200 hanuman 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_200 is 0.305426 over 118 frames.
+MC03_204 aarjidam 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_204 is 0.273998 over 135 frames.
+MC03_209 ndaanjjil 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_209 is 0.21955 over 151 frames.
+MC03_22 tambi tamizh puttagam taa 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_22 is 0.339265 over 247 frames.
+MC03_221 kalwi amaiccar palxlxi wanddaar 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_221 is 0.399229 over 238 frames.
+MC03_233 isxtxam pool waazhalaam 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_233 is 0.332661 over 225 frames.
+MC03_239 unxmai kai kodxeukkum 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_239 is 0.417219 over 143 frames.
+MC03_24 karumbeu inikkum 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_24 is 0.264354 over 180 frames.
+MC03_245 wibattil uunam wanddadeu 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_245 is 0.332944 over 232 frames.
+MC03_246 uuham seyyaadee 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_246 is 0.36244 over 186 frames.
+MC03_247 adeu endda uur 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_247 is 0.203936 over 163 frames.
+MC03_25 tanggattin wilai uyarnddadeu 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_25 is 0.325366 over 230 frames.
+MC03_264 madippenx oppiidxeu tawarxeu 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_264 is 0.380249 over 247 frames.
+MC03_269 ndadxai ozhunggeu sey 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_269 is 0.41396 over 172 frames.
+MC03_273 oolaiccuwadxi padxi 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_273 is 0.365611 over 177 frames.
+MC03_275 kasxaayam udxaleukkeu ndalladeu 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_275 is 0.438096 over 218 frames.
+MC03_278 mannan kiriidxam eenddinaan 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_278 is 0.359017 over 254 frames.
+MC03_279 kiizhee kuurnddeu paar 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_279 is 0.370189 over 231 frames.
+MC03_28 padxam paartteu kadai sol 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_28 is 0.316993 over 242 frames.
+MC03_29 kitxtxawanddaal mutxtxap pagai 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_29 is 0.308914 over 266 frames.
+MC03_291 saambal kari pal tulakka udawum 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_291 is 0.396375 over 281 frames.
+MC03_301 seewalin kuuwalil pozhudeu widxiyum 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_301 is 0.43688 over 236 frames.
+MC03_31 adxaadeu seydawan padxaadeu padxuwaan 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_31 is 0.326679 over 303 frames.
+MC03_327 kaalai bajanai migawum pirabalam 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_327 is 0.296249 over 336 frames.
+MC03_328 indda raajaa endda baasxai peesinaar 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_328 is 0.324982 over 336 frames.
+MC03_329 en purusxan balasaali 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_329 is 0.289887 over 259 frames.
+MC03_331 puurwa jenma banddam 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_331 is 0.329335 over 242 frames.
+MC03_34 otxrxumaiyee balam 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_34 is 0.280167 over 167 frames.
+MC03_342 muulxai illaadawan mutxtxaalx 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_342 is 0.339509 over 232 frames.
+MC03_349 tuukkam udxaleukkeu ndalladeu 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_349 is 0.257936 over 259 frames.
+MC03_354 en wiidi wazhiyaaga sellum peerunddeu 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_354 is 0.385148 over 336 frames.
+MC03_356 janawari mudal maadam 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_356 is 0.38331 over 204 frames.
+MC03_361 ajiiranxak koolxaarxeu 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_361 is 0.266759 over 253 frames.
+MC03_363 ndiinggalx sxeemamaaga irunggalx 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_363 is 0.303488 over 279 frames.
+MC03_365 winjnjaana walxarcci ndaatxtxeu walxarcci 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_365 is 0.303027 over 328 frames.
+MC03_39 parambarai sotteu 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_39 is 0.162609 over 224 frames.
+MC03_40 paagam kurxi 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_40 is 0.263279 over 147 frames.
+MC03_41 taajmahaalai katxtxiyawar sxaajagaan 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_41 is 0.304881 over 257 frames.
+MC03_47 mazhai meegam 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_47 is 0.276435 over 157 frames.
+MC03_48 sanggee muzhanggeu 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_48 is 0.356016 over 183 frames.
+MC03_49 waarattin mudal ndaalx tinggalx 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_49 is 0.352989 over 286 frames.
+MC03_5 eerxpadeu igazhcci 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_5 is 0.28904 over 172 frames.
+MC03_53 inggeu tangguwadarxkeu ilawasam 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_53 is 0.283371 over 278 frames.
+MC03_56 kaalaiyil ezheu 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_56 is 0.238941 over 247 frames.
+MC03_57 insol iyambeu 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_57 is 0.315321 over 199 frames.
+MC03_61 aimpulan adxakkeu 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_61 is 0.322532 over 237 frames.
+MC03_69 kuyil kuuwum 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_69 is 0.33502 over 144 frames.
+LOG (apply-cmvn[5.5.1074~1-71f3]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 82 utterances, errors on 0
+MC03_7 muyarxci ndanmai tarum 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_7 is 0.262715 over 183 frames.
+MC03_77 kuudxi waazhnddaal koodxi ndanmai 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_77 is 0.367252 over 262 frames.
+MC03_88 yaadum uuree yaawarum keelxir 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_88 is 0.32535 over 323 frames.
+MC03_89 tiidum ndanrxum pirxar tara waaraa 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_89 is 0.351099 over 299 frames.
+MC03_9 inddiyaawin talaindagaram txelli 
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC03_9 is 0.231488 over 212 frames.
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:main():nnet3-latgen-faster.cc:256) Time taken 26.4061s: real-time factor assuming 100 frames/sec is 0.163031
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:main():nnet3-latgen-faster.cc:259) Done 82 utterances, failed for 0
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:main():nnet3-latgen-faster.cc:261) Overall log-likelihood per frame is 0.311249 over 16197 frames.
+LOG (nnet3-latgen-faster[5.5.1074~1-71f3]:~CachingOptimizingCompiler():nnet-optimize.cc:710) 0.517 seconds taken in nnet3 compilation total (breakdown: 0.0798 compilation, 0.333 optimization, 0 shortcut expansion, 0.0713 checking, 3.15e-05 computing indexes, 0.0329 misc.) + 0 I/O.
+# Accounting: time=26 threads=1
+# Ended (code 0) at Thu Aug  3 11:46:39 IST 2023, elapsed time 26 seconds

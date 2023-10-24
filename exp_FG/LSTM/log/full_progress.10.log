@@ -1,0 +1,64 @@
+# nnet3-show-progress --use-gpu=no --verbose=2 exp_FG/LSTM/9.mdl exp_FG/LSTM/10.mdl 
+# Started at Thu Aug  3 11:29:28 IST 2023
+#
+nnet3-show-progress --use-gpu=no --verbose=2 exp_FG/LSTM/9.mdl exp_FG/LSTM/10.mdl 
+LOG (nnet3-show-progress[5.5.1074~1-71f3]:SelectGpuId():cu-device.cc:168) Manually selected to compute on CPU.
+VLOG[1] (nnet3-show-progress[5.5.1074~1-71f3]:main():nnet3-show-progress.cc:136) Printing info for the difference between the neural nets: left-context: 0
+right-context: 7
+num-parameters: 2503424
+modulus: 1
+input-node name=input dim=13
+component-node name=L0_fixaffine component=L0_fixaffine input=Append(Offset(input, -2), Offset(input, -1), input, Offset(input, 1), Offset(input, 2)) input-dim=65 output-dim=65
+component-node name=Lstm1_c_t component=Lstm1_c input=Sum(Lstm1_c1_t, Lstm1_c2_t) input-dim=1024 output-dim=1024
+component-node name=Lstm1_i1 component=Lstm1_W_i-xr input=Append(L0_fixaffine, IfDefined(Offset(Lstm1_r_t, -1))) input-dim=321 output-dim=1024
+component-node name=Lstm1_i2 component=Lstm1_w_ic input=IfDefined(Offset(Lstm1_c_t, -1)) input-dim=1024 output-dim=1024
+component-node name=Lstm1_i_t component=Lstm1_i input=Sum(Lstm1_i1, Lstm1_i2) input-dim=1024 output-dim=1024
+component-node name=Lstm1_f1 component=Lstm1_W_f-xr input=Append(L0_fixaffine, IfDefined(Offset(Lstm1_r_t, -1))) input-dim=321 output-dim=1024
+component-node name=Lstm1_f2 component=Lstm1_w_fc input=IfDefined(Offset(Lstm1_c_t, -1)) input-dim=1024 output-dim=1024
+component-node name=Lstm1_f_t component=Lstm1_f input=Sum(Lstm1_f1, Lstm1_f2) input-dim=1024 output-dim=1024
+component-node name=Lstm1_o1 component=Lstm1_W_o-xr input=Append(L0_fixaffine, IfDefined(Offset(Lstm1_r_t, -1))) input-dim=321 output-dim=1024
+component-node name=Lstm1_o2 component=Lstm1_w_oc input=Lstm1_c_t input-dim=1024 output-dim=1024
+component-node name=Lstm1_o_t component=Lstm1_o input=Sum(Lstm1_o1, Lstm1_o2) input-dim=1024 output-dim=1024
+component-node name=Lstm1_h_t component=Lstm1_h input=Lstm1_c_t input-dim=1024 output-dim=1024
+component-node name=Lstm1_g1 component=Lstm1_W_c-xr input=Append(L0_fixaffine, IfDefined(Offset(Lstm1_r_t, -1))) input-dim=321 output-dim=1024
+component-node name=Lstm1_g_t component=Lstm1_g input=Lstm1_g1 input-dim=1024 output-dim=1024
+component-node name=Lstm1_c1_t component=Lstm1_c1 input=Append(Lstm1_f_t, IfDefined(Offset(Lstm1_c_t, -1))) input-dim=2048 output-dim=1024
+component-node name=Lstm1_c2_t component=Lstm1_c2 input=Append(Lstm1_i_t, Lstm1_g_t) input-dim=2048 output-dim=1024
+component-node name=Lstm1_m_t component=Lstm1_m input=Append(Lstm1_o_t, Lstm1_h_t) input-dim=2048 output-dim=1024
+component-node name=Lstm1_rp_t component=Lstm1_W-m input=Lstm1_m_t input-dim=1024 output-dim=512
+dim-range-node name=Lstm1_r_t_preclip input-node=Lstm1_rp_t dim-offset=0 dim=256
+component-node name=Lstm1_r_t component=Lstm1_r input=Lstm1_r_t_preclip input-dim=256 output-dim=256
+component-node name=Final_affine component=Final_affine input=Lstm1_rp_t input-dim=512 output-dim=1280
+component-node name=Final_log_softmax component=Final_log_softmax input=Final_affine input-dim=1280 output-dim=1280
+output-node name=output input=Offset(Final_log_softmax, 5) dim=1280 objective=linear
+component name=L0_fixaffine type=FixedAffineComponent, input-dim=65, output-dim=65, linear-params-rms=0.009197, bias-{mean,stddev}=4.967e-05,0.001237
+component name=Lstm1_W_i-xr type=NaturalGradientAffineComponent, input-dim=321, output-dim=1024, learning-rate=0.000278495, max-change=0.75, linear-params-rms=0.002692, linear-params-row-norms=[percentiles(0,1,2,5 10,20,50,80,90 95,98,99,100)=(0.009,0.01,0.01,0.01 0.02,0.02,0.04,0.06,0.07 0.08,0.09,0.10,0.13), mean=0.0425, stddev=0.0228], linear-params-col-norms=[percentiles(0,1,2,5 10,20,50,80,90 95,98,99,100)=(0.02,0.02,0.02,0.02 0.03,0.08,0.09,0.10,0.10 0.11,0.11,0.12,0.13), mean=0.0824, stddev=0.0251], linear-params-singular-values=[percentiles(0,1,2,5 10,20,50,80,90 95,98,99,100)=(0.01,0.01,0.01,0.01 0.02,0.02,0.04,0.09,0.16 0.20,0.24,0.25,0.28), mean=0.0629, stddev=0.0588], bias-{mean,stddev}=0.0003346,0.009249, rank-in=20, rank-out=80, num-samples-history=2000, update-period=4, alpha=4
+component name=Lstm1_w_ic type=NaturalGradientPerElementScaleComponent, input-dim=1024, output-dim=1024, learning-rate=0.000278495, max-change=0.75, scales-min=-0.0344609, scales-max=0.037844, scales-{mean,stddev}=-0.0001769,0.01074, rank=8, update-period=10, num-samples-history=2000, alpha=4
+component name=Lstm1_W_f-xr type=NaturalGradientAffineComponent, input-dim=321, output-dim=1024, learning-rate=0.000278495, max-change=0.75, linear-params-rms=0.003309, linear-params-row-norms=[percentiles(0,1,2,5 10,20,50,80,90 95,98,99,100)=(0.009,0.009,0.01,0.01 0.01,0.02,0.05,0.08,0.09 0.10,0.11,0.13,0.21), mean=0.0509, stddev=0.0304], linear-params-col-norms=[percentiles(0,1,2,5 10,20,50,80,90 95,98,99,100)=(0.02,0.02,0.02,0.02 0.03,0.10,0.11,0.12,0.13 0.13,0.14,0.14,0.16), mean=0.101, stddev=0.0325], linear-params-singular-values=[percentiles(0,1,2,5 10,20,50,80,90 95,98,99,100)=(0.01,0.01,0.01,0.01 0.02,0.02,0.05,0.11,0.19 0.26,0.30,0.32,0.37), mean=0.075, stddev=0.0747], bias-{mean,stddev}=-0.0003539,0.009419, rank-in=20, rank-out=80, num-samples-history=2000, update-period=4, alpha=4
+component name=Lstm1_w_fc type=NaturalGradientPerElementScaleComponent, input-dim=1024, output-dim=1024, learning-rate=0.000278495, max-change=0.75, scales-min=-0.0606216, scales-max=0.0610541, scales-{mean,stddev}=-0.000241,0.01355, rank=8, update-period=10, num-samples-history=2000, alpha=4
+component name=Lstm1_W_o-xr type=NaturalGradientAffineComponent, input-dim=321, output-dim=1024, learning-rate=0.000278495, max-change=0.75, linear-params-rms=0.002193, linear-params-row-norms=[percentiles(0,1,2,5 10,20,50,80,90 95,98,99,100)=(0.009,0.01,0.01,0.01 0.02,0.02,0.03,0.05,0.06 0.06,0.07,0.07,0.08), mean=0.0365, stddev=0.0146], linear-params-col-norms=[percentiles(0,1,2,5 10,20,50,80,90 95,98,99,100)=(0.02,0.02,0.02,0.02 0.03,0.07,0.07,0.08,0.08 0.08,0.09,0.10,0.11), mean=0.0674, stddev=0.0195], linear-params-singular-values=[percentiles(0,1,2,5 10,20,50,80,90 95,98,99,100)=(0.01,0.01,0.01,0.01 0.02,0.02,0.03,0.08,0.13 0.16,0.19,0.19,0.22), mean=0.0527, stddev=0.0463], bias-{mean,stddev}=0.000175,0.009366, rank-in=20, rank-out=80, num-samples-history=2000, update-period=4, alpha=4
+component name=Lstm1_w_oc type=NaturalGradientPerElementScaleComponent, input-dim=1024, output-dim=1024, learning-rate=0.000278495, max-change=0.75, scales-min=-0.0315831, scales-max=0.0607353, scales-{mean,stddev}=0.0008175,0.01154, rank=8, update-period=10, num-samples-history=2000, alpha=4
+component name=Lstm1_W_c-xr type=NaturalGradientAffineComponent, input-dim=321, output-dim=1024, learning-rate=0.000278495, max-change=0.75, linear-params-rms=0.006403, linear-params-row-norms=[percentiles(0,1,2,5 10,20,50,80,90 95,98,99,100)=(0.009,0.01,0.01,0.02 0.03,0.05,0.11,0.15,0.16 0.18,0.20,0.21,0.36), mean=0.103, stddev=0.0509], linear-params-col-norms=[percentiles(0,1,2,5 10,20,50,80,90 95,98,99,100)=(0.02,0.02,0.02,0.02 0.06,0.19,0.22,0.23,0.24 0.25,0.26,0.28,0.31), mean=0.194, stddev=0.0654], linear-params-singular-values=[percentiles(0,1,2,5 10,20,50,80,90 95,98,99,100)=(0.01,0.01,0.01,0.02 0.03,0.04,0.09,0.22,0.37 0.49,0.57,0.59,0.67), mean=0.146, stddev=0.144], bias-{mean,stddev}=-2.502e-05,0.009384, rank-in=20, rank-out=80, num-samples-history=2000, update-period=4, alpha=4
+component name=Lstm1_i type=SigmoidComponent, dim=1024, self-repair-scale=1e-05, count=7.4e+03, self-repaired-proportion=0.171993, value-avg=[percentiles(0,1,2,5 10,20,50,80,90 95,98,99,100)=(-3.0,-0.62,-0.40,-0.11 -0.0005,0.16,0.53,0.92,1.1 1.3,1.7,1.9,4.8), mean=0.55, stddev=0.538], deriv-avg=[percentiles(0,1,2,5 10,20,50,80,90 95,98,99,100)=(-1.3,-0.34,-0.19,-0.09 -0.02,0.05,0.15,0.23,0.27 0.31,0.36,0.42,0.87), mean=0.137, stddev=0.149], oderiv-rms=[percentiles(0,1,2,5 10,20,50,80,90 95,98,99,100)=(0,0,0,0 0.03,0.07,0.18,0.35,0.48 0.65,0.87,0.97,1.7), mean=0.234, stddev=0.21], oderiv-count=3650
+component name=Lstm1_f type=SigmoidComponent, dim=1024, self-repair-scale=1e-05
+component name=Lstm1_o type=SigmoidComponent, dim=1024, self-repair-scale=1e-05
+component name=Lstm1_g type=TanhComponent, dim=1024, self-repair-scale=1e-05, count=8.5e+03, self-repaired-proportion=-2.38234, value-avg=[percentiles(0,1,2,5 10,20,50,80,90 95,98,99,100)=(-3.0,-1.9,-1.7,-1.4 -1.1,-0.86,-0.01,0.83,1.1 1.3,1.7,1.9,4.3), mean=-0.0154, stddev=0.911], deriv-avg=[percentiles(0,1,2,5 10,20,50,80,90 95,98,99,100)=(-1.4,-0.51,-0.36,-0.23 -0.12,0.02,0.38,0.75,0.97 1.2,1.4,1.5,1.9), mean=0.399, stddev=0.431], oderiv-rms=[percentiles(0,1,2,5 10,20,50,80,90 95,98,99,100)=(0,0,0,0 0.02,0.05,0.17,0.33,0.45 0.56,0.69,0.74,1.1), mean=0.21, stddev=0.179], oderiv-count=1900
+component name=Lstm1_h type=TanhComponent, dim=1024, self-repair-scale=1e-05
+component name=Lstm1_c1 type=ElementwiseProductComponent, input-dim=2048, output-dim=1024
+component name=Lstm1_c2 type=ElementwiseProductComponent, input-dim=2048, output-dim=1024
+component name=Lstm1_m type=ElementwiseProductComponent, input-dim=2048, output-dim=1024
+component name=Lstm1_c type=BackpropTruncationComponent, dim=1024, scale=1, count=3.15e+03, recurrence-interval=1, clipping-threshold=30, clipped-proportion=0.00571429, zeroing-threshold=15, zeroing-interval=20, zeroed-proportion=0.0888889, count-zeroing-boundaries=157
+component name=Lstm1_W-m type=NaturalGradientAffineComponent, input-dim=1024, output-dim=512, learning-rate=0.000278495, max-change=0.75, linear-params-rms=0.005097, linear-params-row-norms=[percentiles(0,1,2,5 10,20,50,80,90 95,98,99,100)=(0.08,0.08,0.08,0.08 0.09,0.09,0.11,0.22,0.22 0.22,0.23,0.23,0.24), mean=0.151, stddev=0.062], linear-params-col-norms=[percentiles(0,1,2,5 10,20,50,80,90 95,98,99,100)=(0.007,0.02,0.02,0.04 0.05,0.07,0.11,0.15,0.16 0.17,0.18,0.19,0.21), mean=0.107, stddev=0.0426], linear-params-singular-values=[percentiles(0,1,2,5 10,20,50,80,90 95,98,99,100)=(0.01,0.02,0.02,0.02 0.02,0.04,0.09,0.20,0.28 0.35,0.40,0.44,0.52), mean=0.125, stddev=0.105], bias-{mean,stddev}=-0.0005521,0.008811, rank-in=20, rank-out=80, num-samples-history=2000, update-period=4, alpha=4
+component name=Lstm1_r type=BackpropTruncationComponent, dim=256, scale=1, count=3.1e+03, recurrence-interval=1, clipping-threshold=30, clipped-proportion=0, zeroing-threshold=15, zeroing-interval=20, zeroed-proportion=0, count-zeroing-boundaries=155
+component name=Final_affine type=NaturalGradientAffineComponent, input-dim=512, output-dim=1280, learning-rate=0.000278495, max-change=1.5, linear-params-rms=0.002806, linear-params-row-norms=[percentiles(0,1,2,5 10,20,50,80,90 95,98,99,100)=(0.02,0.03,0.03,0.03 0.04,0.04,0.06,0.08,0.09 0.10,0.11,0.12,0.17), mean=0.0601, stddev=0.0204], linear-params-col-norms=[percentiles(0,1,2,5 10,20,50,80,90 95,98,99,100)=(0.07,0.08,0.08,0.09 0.09,0.09,0.10,0.11,0.11 0.11,0.12,0.12,0.13), mean=0.1, stddev=0.0081], linear-params-singular-values=[percentiles(0,1,2,5 10,20,50,80,90 95,98,99,100)=(0.01,0.01,0.01,0.01 0.02,0.02,0.04,0.10,0.16 0.24,0.31,0.35,0.42), mean=0.0689, stddev=0.073], bias-{mean,stddev}=0.0001733,0.009055, rank-in=20, rank-out=80, num-samples-history=2000, update-period=4, alpha=4
+component name=Final_log_softmax type=LogSoftmaxComponent, dim=1280
+
+LOG (nnet3-show-progress[5.5.1074~1-71f3]:main():nnet3-show-progress.cc:143) Parameter differences per layer are [ Lstm1_W_i-xr:1.5714 Lstm1_w_ic:0.343766 Lstm1_W_f-xr:1.92111 Lstm1_w_fc:0.433771 Lstm1_W_o-xr:1.29263 Lstm1_w_oc:0.370318 Lstm1_W_c-xr:3.68329 Lstm1_W-m:3.69605 Final_affine:2.29486 ]
+LOG (nnet3-show-progress[5.5.1074~1-71f3]:main():nnet3-show-progress.cc:153) Norms of parameter matrices from <new-nnet-in> are [ Lstm1_W_i-xr:41.9235 Lstm1_w_ic:29.7626 Lstm1_W_f-xr:42.5537 Lstm1_w_fc:28.3049 Lstm1_W_o-xr:42.1269 Lstm1_w_oc:29.0315 Lstm1_W_c-xr:46.0313 Lstm1_W-m:39.832 Final_affine:53.3724 ]
+LOG (nnet3-show-progress[5.5.1074~1-71f3]:main():nnet3-show-progress.cc:157) Relative parameter differences per layer are [ Lstm1_W_i-xr:0.0371811 Lstm1_w_ic:0.0114316 Lstm1_W_f-xr:0.0447785 Lstm1_w_fc:0.0151597 Lstm1_W_o-xr:0.0304314 Lstm1_w_oc:0.0126207 Lstm1_W_c-xr:0.0797622 Lstm1_W-m:0.0937305 Final_affine:0.0429766 ]
+LOG (nnet3-show-progress[5.5.1074~1-71f3]:PrintProfile():cu-device.cc:563) -----
+[cudevice profile]
+Total GPU time:	0s (may involve some double-counting)
+-----
+# Accounting: time=0 threads=1
+# Ended (code 0) at Thu Aug  3 11:29:28 IST 2023, elapsed time 0 seconds

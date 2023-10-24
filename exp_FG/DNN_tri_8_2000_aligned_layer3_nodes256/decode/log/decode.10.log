@@ -1,0 +1,161 @@
+# nnet-latgen-faster --minimize=false --max-active=7000 --min-active=200 --beam=15.0 --lattice-beam=8.0 --acoustic-scale=0.1 --allow-partial=true --word-symbol-table=exp_FG/tri_8_2000/graph/words.txt exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/final.mdl exp_FG/tri_8_2000/graph/HCLG.fst "ark,s,cs:apply-cmvn  --utt2spk=ark:data/test/split10/10/utt2spk scp:data/test/split10/10/cmvn.scp scp:data/test/split10/10/feats.scp ark:- |" "ark:|gzip -c > exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/decode/lat.10.gz" 
+# Started at Thu Aug  3 11:46:04 IST 2023
+#
+nnet-latgen-faster --minimize=false --max-active=7000 --min-active=200 --beam=15.0 --lattice-beam=8.0 --acoustic-scale=0.1 --allow-partial=true --word-symbol-table=exp_FG/tri_8_2000/graph/words.txt exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/final.mdl exp_FG/tri_8_2000/graph/HCLG.fst 'ark,s,cs:apply-cmvn  --utt2spk=ark:data/test/split10/10/utt2spk scp:data/test/split10/10/cmvn.scp scp:data/test/split10/10/feats.scp ark:- |' 'ark:|gzip -c > exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/decode/lat.10.gz' 
+apply-cmvn --utt2spk=ark:data/test/split10/10/utt2spk scp:data/test/split10/10/cmvn.scp scp:data/test/split10/10/feats.scp ark:- 
+MC05_104 tootxtxattai gawani 
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC05_104 is 0.296363 over 287 frames.
+MC05_109 jagam 
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC05_109 is 0.253924 over 81 frames.
+MC05_112 sxasxtxi 
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC05_112 is 0.308537 over 161 frames.
+MC05_113 isxtxam 
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC05_113 is 0.253898 over 144 frames.
+MC05_116 kanxidam 
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC05_116 is 0.305543 over 136 frames.
+MC05_117 kaagidam 
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC05_117 is 0.295018 over 143 frames.
+MC05_118 paagam 
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC05_118 is 0.281922 over 124 frames.
+MC05_119 paanam 
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC05_119 is 0.222 over 127 frames.
+MC05_12 seywana tirundda sey 
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC05_12 is 0.304053 over 339 frames.
+MC05_121 pambaram 
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC05_121 is 0.304219 over 140 frames.
+MC05_13 kuranggeu panddai erxinddadeu 
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC05_13 is 0.310445 over 381 frames.
+MC05_130 saram 
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC05_130 is 0.292553 over 114 frames.
+MC05_135 katxtxam 
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC05_135 is 0.244971 over 147 frames.
+MC05_136 padakkam 
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC05_136 is 0.256214 over 131 frames.
+MC05_14 kudxisai tiiyaal erinddadeu 
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC05_14 is 0.316713 over 341 frames.
+MC05_140 taraadaram 
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC05_140 is 0.308351 over 153 frames.
+MC05_145 maadam 
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC05_145 is 0.286544 over 110 frames.
+MC05_147 kattirikkaay 
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC05_147 is 0.294654 over 153 frames.
+MC05_165 panxiweu 
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC05_165 is 0.245948 over 151 frames.
+MC05_170 sanddiran 
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC05_170 is 0.306951 over 139 frames.
+MC05_176 tanxnxiir 
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC05_176 is 0.282824 over 104 frames.
+MC05_179 tamizh 
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC05_179 is 0.222732 over 113 frames.
+MC05_18 maatxtxeukkeu iruppadeu waal 
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC05_18 is 0.327162 over 366 frames.
+MC05_182 punidam 
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC05_182 is 0.257876 over 120 frames.
+MC05_187 enggalx 
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC05_187 is 0.22837 over 127 frames.
+MC05_20 sirxeu tulxi pereu welxlxam 
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC05_20 is 0.251422 over 462 frames.
+MC05_201 hastam 
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC05_201 is 0.278539 over 104 frames.
+MC05_202 haasanam 
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC05_202 is 0.34356 over 126 frames.
+MC05_203 amsanggalx 
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC05_203 is 0.293327 over 151 frames.
+MC05_213 kanxnxiir anjjali seluttinar 
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC05_213 is 0.333498 over 326 frames.
+MC05_214 puliyaip paartteu anjjeu 
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC05_214 is 0.346888 over 262 frames.
+MC05_217 selwam adirsxtxam tarum 
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC05_217 is 0.324896 over 246 frames.
+MC05_224 ahimsai wazhiyaip pinpatxrxeu 
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC05_224 is 0.304535 over 300 frames.
+MC05_225 jeyhindd enrxeu kuurxeu 
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC05_225 is 0.317364 over 273 frames.
+MC05_236 kaayccaleukkeu suudxeu kanjji sirxanddadeu 
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC05_236 is 0.376655 over 428 frames.
+MC05_239 unxmai kai kodxeukkum 
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC05_239 is 0.338832 over 223 frames.
+MC05_24 karumbeu inikkum 
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC05_24 is 0.305126 over 247 frames.
+MC05_244 talaiwar warugai uurjidam aanadeu 
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC05_244 is 0.305114 over 412 frames.
+MC05_246 uuham seyyaadee 
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC05_246 is 0.350565 over 237 frames.
+MC05_25 tanggattin wilai uyarnddadeu 
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC05_25 is 0.305016 over 368 frames.
+MC05_252 enxnxey teeytteuk kulxi 
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC05_252 is 0.296589 over 255 frames.
+MC05_254 eerikkeu appaal wiidxeu 
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC05_254 is 0.320819 over 312 frames.
+MC05_268 lanjja ozhippeu satxtxam ndalla tiirweu 
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC05_268 is 0.373472 over 397 frames.
+MC05_27 padxitteup patxtxam perxeu 
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC05_27 is 0.316001 over 325 frames.
+MC05_270 suuriyan olxi weppam 
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC05_270 is 0.379677 over 272 frames.
+MC05_271 onrxaam paagam ndanrxaaga irunddadeu 
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC05_271 is 0.348149 over 418 frames.
+MC05_28 padxam paartteu kadai sol 
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC05_28 is 0.248948 over 397 frames.
+MC05_281 kudxumbam oreu kadambam 
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC05_281 is 0.354308 over 255 frames.
+MC05_288 ndaan eppozhudum sanddoosxamaaga iruppeen 
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC05_288 is 0.353751 over 424 frames.
+MC05_30 agal watxtxam pagal mazhai 
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC05_30 is 0.318408 over 354 frames.
+MC05_300 sutxrxeu suuzhal sugaadaaram pinpatxrxeu 
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC05_300 is 0.346875 over 389 frames.
+MC05_303 njaayirxeu widxumurxai kadxai adxaippeu 
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC05_303 is 0.366554 over 373 frames.
+MC05_306 tii muutxtxi tii wibatteu ndadxanddadeu 
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC05_306 is 0.353241 over 402 frames.
+MC05_308 malar tuuwi waazhtteu 
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC05_308 is 0.345644 over 250 frames.
+MC05_311 purxaa tuudeu anuppa tolai duuram parxanddadeu 
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC05_311 is 0.317791 over 524 frames.
+MC05_318 inrxeu mazhai ndiidxikkum 
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC05_318 is 0.385876 over 265 frames.
+MC05_328 indda raajaa endda baasxai peesinaar 
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC05_328 is 0.392755 over 385 frames.
+MC05_33 paarttaal puunai paaynddaal puli 
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC05_33 is 0.320167 over 484 frames.
+MC05_339 etxtxeukkaali oreu puucci 
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC05_339 is 0.362031 over 289 frames.
+MC05_345 indda maiyanggalx enggeu ulxlxadeu 
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC05_345 is 0.374742 over 332 frames.
+MC05_348 lajjai enrxaal wekkam 
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC05_348 is 0.300818 over 319 frames.
+MC05_349 tuukkam udxaleukkeu ndalladeu 
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC05_349 is 0.367761 over 316 frames.
+MC05_351 widxaa muyarxci walxarcci tarum 
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC05_351 is 0.370438 over 319 frames.
+MC05_358 jaadi illaiyadxi paappaa 
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC05_358 is 0.354371 over 332 frames.
+MC05_36 paanam arunddeu 
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC05_36 is 0.275067 over 265 frames.
+MC05_363 ndiinggalx sxeemamaaga irunggalx 
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC05_363 is 0.342555 over 396 frames.
+MC05_46 manx waasanai 
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC05_46 is 0.275935 over 231 frames.
+MC05_50 ndunggeu inikkum 
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC05_50 is 0.306505 over 249 frames.
+MC05_66 uurudxan waazh 
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC05_66 is 0.269971 over 220 frames.
+MC05_68 kanddaiyaanaalum kasakkik katxtxeu 
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC05_68 is 0.316276 over 332 frames.
+LOG (apply-cmvn[5.5.1074~1-71f3]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 75 utterances, errors on 0
+MC05_82 aatxrxin ooram karai 
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC05_82 is 0.303507 over 296 frames.
+MC05_83 aadxaiyil padxiwadeu karxai 
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC05_83 is 0.339636 over 300 frames.
+MC05_84 aatxrxil waruwadeu welxlxam 
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC05_84 is 0.342964 over 303 frames.
+MC05_85 aasaiyaay tinbadeu wellam 
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC05_85 is 0.343792 over 274 frames.
+MC05_87 marattai arxuppadeu waalx 
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance MC05_87 is 0.33084 over 309 frames.
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:main():nnet-latgen-faster.cc:181) Time taken 3.50589s: real-time factor assuming 100 frames/sec is 0.017477
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:main():nnet-latgen-faster.cc:184) Done 75 utterances, failed for 0
+LOG (nnet-latgen-faster[5.5.1074~1-71f3]:main():nnet-latgen-faster.cc:186) Overall log-likelihood per frame is 0.322004 over 20060 frames.
+# Accounting: time=4 threads=1
+# Ended (code 0) at Thu Aug  3 11:46:08 IST 2023, elapsed time 4 seconds

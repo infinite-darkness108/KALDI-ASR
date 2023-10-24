@@ -1,0 +1,4 @@
+<BlstmProjected> <InputDim> 78 <OutputDim> 640 <CellDim> 320
+<Tanh> <InputDim> 640 <OutputDim> 640
+<AffineTransform> <InputDim> 640 <OutputDim> 1280 <BiasMean> 0.0 <BiasRange> 0.0
+<Softmax> <InputDim> 1280 <OutputDim> 1280

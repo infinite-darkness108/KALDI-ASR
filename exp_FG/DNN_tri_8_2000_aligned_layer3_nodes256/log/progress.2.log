@@ -1,0 +1,8 @@
+# nnet-show-progress --use-gpu=no exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/1.mdl exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/2.mdl ark:exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/egs/train_diagnostic.egs 
+# Started at Thu Aug  3 11:08:46 IST 2023
+#
+nnet-show-progress --use-gpu=no exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/1.mdl exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/2.mdl ark:exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/egs/train_diagnostic.egs 
+LOG (nnet-show-progress[5.5.1074~1-71f3]:SelectGpuId():cu-device.cc:168) Manually selected to compute on CPU.
+WARNING (nnet-show-progress[5.5.1074~1-71f3]:main():nnet-show-progress.cc:88) Parameter-dim mismatch, cannot show progress.
+# Accounting: time=0 threads=1
+# Ended (code 0) at Thu Aug  3 11:08:46 IST 2023, elapsed time 0 seconds

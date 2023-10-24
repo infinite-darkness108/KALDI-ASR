@@ -1,0 +1,19 @@
+# gmm-est --write-occs=exp_FG/ldamllt/2.occs --mix-up=2500 --power=0.25 exp_FG/ldamllt/1.mdl "gmm-sum-accs - exp_FG/ldamllt/1.*.acc |" exp_FG/ldamllt/2.mdl 
+# Started at Thu Aug  3 11:13:30 IST 2023
+#
+gmm-est --write-occs=exp_FG/ldamllt/2.occs --mix-up=2500 --power=0.25 exp_FG/ldamllt/1.mdl 'gmm-sum-accs - exp_FG/ldamllt/1.*.acc |' exp_FG/ldamllt/2.mdl 
+gmm-sum-accs - exp_FG/ldamllt/1.1.acc exp_FG/ldamllt/1.10.acc exp_FG/ldamllt/1.2.acc exp_FG/ldamllt/1.3.acc exp_FG/ldamllt/1.4.acc exp_FG/ldamllt/1.5.acc exp_FG/ldamllt/1.6.acc exp_FG/ldamllt/1.7.acc exp_FG/ldamllt/1.8.acc exp_FG/ldamllt/1.9.acc 
+LOG (gmm-sum-accs[5.5.1074~1-71f3]:main():gmm-sum-accs.cc:63) Summed 10 stats, total count 834422, avg like/frame -44.4123
+LOG (gmm-sum-accs[5.5.1074~1-71f3]:main():gmm-sum-accs.cc:66) Total count of stats is 834422
+LOG (gmm-sum-accs[5.5.1074~1-71f3]:main():gmm-sum-accs.cc:67) Written stats to -
+LOG (gmm-est[5.5.1074~1-71f3]:MleUpdate():transition-model.cc:528) TransitionModel::Update, objf change is 0.215115 per frame over 834422 frames. 
+LOG (gmm-est[5.5.1074~1-71f3]:MleUpdate():transition-model.cc:531) 24 probabilities floored, 3708 out of 5757 transition-states skipped due to insuffient data (it is normal to have some skipped.)
+LOG (gmm-est[5.5.1074~1-71f3]:main():gmm-est.cc:102) Transition model update: Overall 0.215115 log-like improvement per frame over 834422 frames.
+LOG (gmm-est[5.5.1074~1-71f3]:MleAmDiagGmmUpdate():mle-am-diag-gmm.cc:225) 0 variance elements floored in 0 Gaussians, out of 1568
+LOG (gmm-est[5.5.1074~1-71f3]:MleAmDiagGmmUpdate():mle-am-diag-gmm.cc:229) Removed 0 Gaussians due to counts < --min-gaussian-occupancy=10 and --remove-low-count-gaussians=true
+LOG (gmm-est[5.5.1074~1-71f3]:main():gmm-est.cc:113) GMM update: Overall 2.03786e-06 objective function improvement per frame over 834422 frames
+LOG (gmm-est[5.5.1074~1-71f3]:main():gmm-est.cc:116) GMM update: Overall avg like per frame = -44.4123 over 834422 frames.
+LOG (gmm-est[5.5.1074~1-71f3]:SplitByCount():am-diag-gmm.cc:116) Split 1568 states with target = 2500, power = 0.25, perturb_factor = 0.01 and min_count = 20, split #Gauss from 1568 to 2500
+LOG (gmm-est[5.5.1074~1-71f3]:main():gmm-est.cc:146) Written model to exp_FG/ldamllt/2.mdl
+# Accounting: time=0 threads=1
+# Ended (code 0) at Thu Aug  3 11:13:30 IST 2023, elapsed time 0 seconds

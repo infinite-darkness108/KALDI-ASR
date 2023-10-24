@@ -1,0 +1,17 @@
+# gmm-acc-stats-ali exp_FG/mono/23.mdl "ark,s,cs:apply-cmvn  --utt2spk=ark:data/train/split10/7/utt2spk scp:data/train/split10/7/cmvn.scp scp:data/train/split10/7/feats.scp ark:- | add-deltas  ark:- ark:- |" "ark:gunzip -c exp_FG/mono/ali.7.gz|" exp_FG/mono/23.7.acc 
+# Started at Thu Aug  3 11:08:08 IST 2023
+#
+gmm-acc-stats-ali exp_FG/mono/23.mdl 'ark,s,cs:apply-cmvn  --utt2spk=ark:data/train/split10/7/utt2spk scp:data/train/split10/7/cmvn.scp scp:data/train/split10/7/feats.scp ark:- | add-deltas  ark:- ark:- |' 'ark:gunzip -c exp_FG/mono/ali.7.gz|' exp_FG/mono/23.7.acc 
+apply-cmvn --utt2spk=ark:data/train/split10/7/utt2spk scp:data/train/split10/7/cmvn.scp scp:data/train/split10/7/feats.scp ark:- 
+add-deltas ark:- ark:- 
+LOG (gmm-acc-stats-ali[5.5.1074~1-71f3]:main():gmm-acc-stats-ali.cc:105) Processed 50 utterances; for utterance MC02_157 avg. like is -85.3047 over 199 frames.
+LOG (gmm-acc-stats-ali[5.5.1074~1-71f3]:main():gmm-acc-stats-ali.cc:105) Processed 100 utterances; for utterance MC02_216 avg. like is -89.7047 over 237 frames.
+LOG (gmm-acc-stats-ali[5.5.1074~1-71f3]:main():gmm-acc-stats-ali.cc:105) Processed 150 utterances; for utterance MC02_268 avg. like is -93.34 over 336 frames.
+LOG (gmm-acc-stats-ali[5.5.1074~1-71f3]:main():gmm-acc-stats-ali.cc:105) Processed 200 utterances; for utterance MC02_323 avg. like is -90.5835 over 321 frames.
+LOG (gmm-acc-stats-ali[5.5.1074~1-71f3]:main():gmm-acc-stats-ali.cc:105) Processed 250 utterances; for utterance MC02_58 avg. like is -80.4966 over 371 frames.
+LOG (apply-cmvn[5.5.1074~1-71f3]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 289 utterances, errors on 0
+LOG (gmm-acc-stats-ali[5.5.1074~1-71f3]:main():gmm-acc-stats-ali.cc:112) Done 289 files, 0 with errors.
+LOG (gmm-acc-stats-ali[5.5.1074~1-71f3]:main():gmm-acc-stats-ali.cc:115) Overall avg like per frame (Gaussian only) = -87.1081 over 80668 frames.
+LOG (gmm-acc-stats-ali[5.5.1074~1-71f3]:main():gmm-acc-stats-ali.cc:123) Written accs.
+# Accounting: time=0 threads=1
+# Ended (code 0) at Thu Aug  3 11:08:08 IST 2023, elapsed time 0 seconds

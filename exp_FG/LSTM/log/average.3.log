@@ -1,0 +1,9 @@
+# nnet3-average exp_FG/LSTM/4.1.raw - | nnet3-am-copy --set-raw-nnet=- exp_FG/LSTM/3.mdl exp_FG/LSTM/4.mdl 
+# Started at Thu Aug  3 11:20:01 IST 2023
+#
+nnet3-average exp_FG/LSTM/4.1.raw - 
+nnet3-am-copy --set-raw-nnet=- exp_FG/LSTM/3.mdl exp_FG/LSTM/4.mdl 
+LOG (nnet3-average[5.5.1074~1-71f3]:main():nnet3-average.cc:164) Averaged parameters of 1 neural nets, and wrote to -
+LOG (nnet3-am-copy[5.5.1074~1-71f3]:main():nnet3-am-copy.cc:160) Copied neural net from exp_FG/LSTM/3.mdl to exp_FG/LSTM/4.mdl
+# Accounting: time=0 threads=1
+# Ended (code 0) at Thu Aug  3 11:20:01 IST 2023, elapsed time 0 seconds

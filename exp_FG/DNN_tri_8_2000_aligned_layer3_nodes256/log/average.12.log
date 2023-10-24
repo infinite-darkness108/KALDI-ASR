@@ -1,0 +1,9 @@
+# nnet-am-average exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/13.1.mdl exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/13.2.mdl exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/13.3.mdl exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/13.4.mdl exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/13.5.mdl exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/13.6.mdl exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/13.7.mdl exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/13.8.mdl exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/13.9.mdl exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/13.10.mdl - | nnet-am-copy --learning-rates=0.0026164041588426:0.0026164041588426:0.0013082020794213:0.0013082020794213 - exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/13.mdl 
+# Started at Thu Aug  3 11:10:10 IST 2023
+#
+nnet-am-average exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/13.1.mdl exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/13.2.mdl exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/13.3.mdl exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/13.4.mdl exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/13.5.mdl exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/13.6.mdl exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/13.7.mdl exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/13.8.mdl exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/13.9.mdl exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/13.10.mdl - 
+nnet-am-copy --learning-rates=0.0026164041588426:0.0026164041588426:0.0013082020794213:0.0013082020794213 - exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/13.mdl 
+LOG (nnet-am-average[5.5.1074~1-71f3]:main():nnet-am-average.cc:253) Averaged parameters of 10 neural nets, and wrote to -
+LOG (nnet-am-copy[5.5.1074~1-71f3]:main():nnet-am-copy.cc:207) Copied neural net from - to exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/13.mdl
+# Accounting: time=0 threads=1
+# Ended (code 0) at Thu Aug  3 11:10:10 IST 2023, elapsed time 0 seconds

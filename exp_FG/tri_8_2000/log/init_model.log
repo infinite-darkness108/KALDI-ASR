@@ -1,0 +1,117 @@
+# gmm-init-model --write-occs=exp_FG/tri_8_2000/1.occs exp_FG/tri_8_2000/tree exp_FG/tri_8_2000/treeacc data/lang_bigram/topo exp_FG/tri_8_2000/1.mdl 
+# Started at Thu Aug  3 11:08:16 IST 2023
+#
+gmm-init-model --write-occs=exp_FG/tri_8_2000/1.occs exp_FG/tri_8_2000/tree exp_FG/tri_8_2000/treeacc data/lang_bigram/topo exp_FG/tri_8_2000/1.mdl 
+LOG (gmm-init-model[5.5.1074~1-71f3]:main():gmm-init-model.cc:271) Number of separate statistics is 8331
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 5: 46; corresponding phone list: 22 23 24 25 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 14: 57; corresponding phone list: 58 59 60 61 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 50: 82; corresponding phone list: 26 27 28 29 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 75: 58; corresponding phone list: 78 80 81 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 80: 98; corresponding phone list: 55 56 57 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 89: 79; corresponding phone list: 106 107 108 109 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 115: 65; corresponding phone list: 70 72 73 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 117: 89; corresponding phone list: 98 99 100 101 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 128: 53; corresponding phone list: 60 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 177: 78; corresponding phone list: 54 55 56 57 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 182: 97; corresponding phone list: 6 7 8 9 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 186: 73; corresponding phone list: 154 155 156 157 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 198: 62; corresponding phone list: 150 152 153 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 203: 70; corresponding phone list: 134 135 136 137 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 204: 85; corresponding phone list: 98 99 100 101 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 224: 45; corresponding phone list: 66 67 68 69 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 226: 83; corresponding phone list: 78 80 81 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 237: 72; corresponding phone list: 118 119 120 121 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 245: 78; corresponding phone list: 90 91 92 93 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 250: 95; corresponding phone list: 78 79 80 81 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 251: 73; corresponding phone list: 98 99 100 101 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 267: 84; corresponding phone list: 150 151 152 153 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 275: 73; corresponding phone list: 58 59 60 61 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 277: 45; corresponding phone list: 55 56 57 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 288: 58; corresponding phone list: 78 80 81 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 306: 44; corresponding phone list: 127 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 313: 72; corresponding phone list: 150 152 153 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 320: 68; corresponding phone list: 142 143 144 145 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 322: 87; corresponding phone list: 110 112 113 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 324: 76; corresponding phone list: 130 131 132 133 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 331: 63; corresponding phone list: 138 139 140 141 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 340: 81; corresponding phone list: 62 63 64 65 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 344: 83; corresponding phone list: 110 111 112 113 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 349: 89; corresponding phone list: 138 139 140 141 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 387: 81; corresponding phone list: 134 135 136 137 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 398: 83; corresponding phone list: 98 99 100 101 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 400: 72; corresponding phone list: 106 107 108 109 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 446: 85; corresponding phone list: 58 59 60 61 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 451: 54; corresponding phone list: 40 41 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 458: 94; corresponding phone list: 10 11 12 13 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 483: 49; corresponding phone list: 130 132 133 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 508: 54; corresponding phone list: 150 151 152 153 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 510: 72; corresponding phone list: 7 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 512: 68; corresponding phone list: 138 139 140 141 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 519: 90; corresponding phone list: 150 151 152 153 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 521: 75; corresponding phone list: 78 79 80 81 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 544: 54; corresponding phone list: 102 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 554: 93; corresponding phone list: 138 139 140 141 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 556: 87; corresponding phone list: 138 139 140 141 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 557: 57; corresponding phone list: 102 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 558: 95; corresponding phone list: 118 119 120 121 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 568: 79; corresponding phone list: 103 104 105 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 570: 93; corresponding phone list: 58 59 60 61 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 578: 68; corresponding phone list: 142 143 144 145 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 582: 66; corresponding phone list: 106 107 108 109 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 589: 89; corresponding phone list: 46 47 48 49 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 606: 74; corresponding phone list: 66 67 68 69 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 607: 55; corresponding phone list: 40 41 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 614: 81; corresponding phone list: 138 139 140 141 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 621: 95; corresponding phone list: 26 27 28 29 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 643: 79; corresponding phone list: 6 7 8 9 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 650: 68; corresponding phone list: 58 59 60 61 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 652: 99; corresponding phone list: 11 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 658: 56; corresponding phone list: 6 8 9 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 670: 58; corresponding phone list: 134 135 137 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 679: 85; corresponding phone list: 58 59 61 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 686: 67; corresponding phone list: 6 7 8 9 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 695: 82; corresponding phone list: 75 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 698: 35; corresponding phone list: 118 119 120 121 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 725: 62; corresponding phone list: 39 40 41 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 742: 65; corresponding phone list: 10 11 12 13 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 747: 58; corresponding phone list: 50 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 751: 63; corresponding phone list: 18 19 20 21 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 752: 98; corresponding phone list: 78 79 80 81 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 754: 33; corresponding phone list: 58 59 60 61 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 755: 95; corresponding phone list: 126 128 129 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 757: 83; corresponding phone list: 142 143 144 145 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 758: 58; corresponding phone list: 18 19 20 21 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 763: 57; corresponding phone list: 138 139 140 141 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 787: 73; corresponding phone list: 138 139 140 141 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 791: 80; corresponding phone list: 26 27 28 29 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 794: 89; corresponding phone list: 142 143 144 145 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 812: 67; corresponding phone list: 15 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 817: 73; corresponding phone list: 63 64 65 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 858: 51; corresponding phone list: 35 36 37 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 874: 87; corresponding phone list: 74 76 77 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 883: 96; corresponding phone list: 34 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 891: 47; corresponding phone list: 138 139 140 141 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 896: 56; corresponding phone list: 150 151 152 153 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 906: 56; corresponding phone list: 78 79 80 81 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 913: 30; corresponding phone list: 51 52 53 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 922: 46; corresponding phone list: 58 59 60 61 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 953: 94; corresponding phone list: 138 139 140 141 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 1030: 92; corresponding phone list: 103 104 105 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 1050: 83; corresponding phone list: 126 128 129 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 1056: 71; corresponding phone list: 90 91 92 93 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 1087: 79; corresponding phone list: 58 59 60 61 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 1088: 92; corresponding phone list: 138 139 140 141 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 1112: 69; corresponding phone list: 79 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 1139: 80; corresponding phone list: 138 139 140 141 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 1155: 62; corresponding phone list: 87 88 89 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 1221: 94; corresponding phone list: 18 19 20 21 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 1226: 21; corresponding phone list: 42 43 44 45 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 1246: 87; corresponding phone list: 51 52 53 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 1253: 95; corresponding phone list: 118 119 120 121 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 1255: 72; corresponding phone list: 142 143 144 145 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 1263: 75; corresponding phone list: 94 95 96 97 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 1272: 72; corresponding phone list: 51 52 53 
+WARNING (gmm-init-model[5.5.1074~1-71f3]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 1278: 96; corresponding phone list: 134 135 136 137 
+LOG (gmm-init-model[5.5.1074~1-71f3]:main():gmm-init-model.cc:306) Wrote model.
+# Accounting: time=0 threads=1
+# Ended (code 0) at Thu Aug  3 11:08:16 IST 2023, elapsed time 0 seconds

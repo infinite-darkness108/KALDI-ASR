@@ -1,0 +1,19 @@
+# gmm-est --write-occs=exp_FG/mono/29.occs --mix-up=900 --power=0.25 exp_FG/mono/28.mdl "gmm-sum-accs - exp_FG/mono/28.*.acc|" exp_FG/mono/29.mdl 
+# Started at Thu Aug  3 11:08:09 IST 2023
+#
+gmm-est --write-occs=exp_FG/mono/29.occs --mix-up=900 --power=0.25 exp_FG/mono/28.mdl 'gmm-sum-accs - exp_FG/mono/28.*.acc|' exp_FG/mono/29.mdl 
+gmm-sum-accs - exp_FG/mono/28.1.acc exp_FG/mono/28.10.acc exp_FG/mono/28.2.acc exp_FG/mono/28.3.acc exp_FG/mono/28.4.acc exp_FG/mono/28.5.acc exp_FG/mono/28.6.acc exp_FG/mono/28.7.acc exp_FG/mono/28.8.acc exp_FG/mono/28.9.acc 
+LOG (gmm-sum-accs[5.5.1074~1-71f3]:main():gmm-sum-accs.cc:63) Summed 10 stats, total count 834422, avg like/frame -87.9524
+LOG (gmm-sum-accs[5.5.1074~1-71f3]:main():gmm-sum-accs.cc:66) Total count of stats is 834422
+LOG (gmm-sum-accs[5.5.1074~1-71f3]:main():gmm-sum-accs.cc:67) Written stats to -
+LOG (gmm-est[5.5.1074~1-71f3]:MleUpdate():transition-model.cc:528) TransitionModel::Update, objf change is 0 per frame over 834422 frames. 
+LOG (gmm-est[5.5.1074~1-71f3]:MleUpdate():transition-model.cc:531) 2 probabilities floored, 196 out of 471 transition-states skipped due to insuffient data (it is normal to have some skipped.)
+LOG (gmm-est[5.5.1074~1-71f3]:main():gmm-est.cc:102) Transition model update: Overall 0 log-like improvement per frame over 834422 frames.
+LOG (gmm-est[5.5.1074~1-71f3]:MleAmDiagGmmUpdate():mle-am-diag-gmm.cc:225) 0 variance elements floored in 0 Gaussians, out of 871
+LOG (gmm-est[5.5.1074~1-71f3]:MleAmDiagGmmUpdate():mle-am-diag-gmm.cc:229) Removed 0 Gaussians due to counts < --min-gaussian-occupancy=10 and --remove-low-count-gaussians=true
+LOG (gmm-est[5.5.1074~1-71f3]:main():gmm-est.cc:113) GMM update: Overall 0.0338447 objective function improvement per frame over 834422 frames
+LOG (gmm-est[5.5.1074~1-71f3]:main():gmm-est.cc:116) GMM update: Overall avg like per frame = -87.9524 over 834422 frames.
+LOG (gmm-est[5.5.1074~1-71f3]:SplitByCount():am-diag-gmm.cc:116) Split 117 states with target = 900, power = 0.25, perturb_factor = 0.01 and min_count = 20, split #Gauss from 871 to 900
+LOG (gmm-est[5.5.1074~1-71f3]:main():gmm-est.cc:146) Written model to exp_FG/mono/29.mdl
+# Accounting: time=0 threads=1
+# Ended (code 0) at Thu Aug  3 11:08:09 IST 2023, elapsed time 0 seconds

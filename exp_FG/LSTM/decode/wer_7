@@ -1,0 +1,4 @@
+compute-wer --text --mode=present ark:exp_FG/LSTM/decode/scoring/test_filt.txt ark,p:- 
+%WER 0.80 [ 15 / 1867, 11 ins, 0 del, 4 sub ]
+%SER 1.64 [ 12 / 730 ]
+Scored 730 sentences, 0 not present in hyp.

@@ -1,0 +1,781 @@
+maambazham 1.0 m_B aa_I m_I b_I a_I zh_I a_I m_E
+iiram 1.0 ii_B r_I a_I m_E
+murxpagal 1.0 m_B u_I rx_I p_I a_I g_I a_I l_E
+seyyin 1.0 s_B e_I y_I y_I i_I n_E
+pirxpagal 1.0 p_B i_I rx_I p_I a_I g_I a_I l_E
+wilxaiyum 1.0 w_B i_I lx_I ai_I y_I u_I m_E
+en 1.0 e_B n_E
+miideu 1.0 m_B ii_I d_I eu_E
+koobam 1.0 k_B oo_I b_I a_I m_E
+kolxlxaadee 1.0 k_B o_I lx_I lx_I aa_I d_I ee_E
+sirxeu 1.0 s_B i_I rx_I eu_E
+tulxi 1.0 t_B u_I lx_I i_E
+pereu 1.0 p_B e_I r_I eu_E
+welxlxam 1.0 w_B e_I lx_I lx_I a_I m_E
+laksxmi 1.0 l_B a_I k_I sx_I m_I i_E
+muga 1.0 m_B u_I g_I a_E
+laksxanxam 1.0 l_B a_I k_I sx_I a_I nx_I a_I m_E
+ulxlxa 1.0 u_B lx_I lx_I a_E
+penx 1.0 p_B e_I nx_E
+kaasxmiir 1.0 k_B aa_I sx_I m_I ii_I r_E
+wadxakkeu 1.0 w_B a_I dx_I a_I k_I k_I eu_E
+pagudiyil 1.0 p_B a_I g_I u_I d_I i_I y_I i_I l_E
+ulxlxadeu 1.0 u_B lx_I lx_I a_I d_I eu_E
+kanrxeu 1.0 k_B a_I n_I rx_I eu_E
+unxaweukkeu 1.0 u_B nx_I a_I w_I eu_I k_I k_I eu_E
+eenggum 1.0 ee_B ng_I g_I u_I m_E
+ndunggeu 1.0 nd_B u_I ng_I g_I eu_E
+inikkum 1.0 i_B n_I i_I k_I k_I u_I m_E
+awasara 1.0 a_B w_I a_I s_I a_I r_I a_E
+oli 1.0 o_B l_I i_E
+ezhuppeu 1.0 e_B zh_I u_I p_I p_I eu_E
+seywana 1.0 s_B e_I y_I w_I a_I n_I a_E
+tirundda 1.0 t_B i_I r_I u_I nd_I d_I a_E
+sey 1.0 s_B e_I y_E
+pusxpam 1.0 p_B u_I sx_I p_I a_I m_E
+ndaan 1.0 nd_B aa_I n_E
+padxam 1.0 p_B a_I dx_I a_I m_E
+tiiraakkoobam 1.0 t_B ii_I r_I aa_I k_I k_I oo_I b_I a_I m_E
+pooraay 1.0 p_B oo_I r_I aa_I y_E
+mudxiyum 1.0 m_B u_I dx_I i_I y_I u_I m_E
+aadxaiyil 1.0 aa_B dx_I ai_I y_I i_I l_E
+padxiwadeu 1.0 p_B a_I dx_I i_I w_I a_I d_I eu_E
+karxai 1.0 k_B a_I rx_I ai_E
+panjjeu 1.0 p_B a_I nj_I j_I eu_E
+nderuppil 1.0 nd_B e_I r_I u_I p_I p_I i_I l_E
+karugiyadeu 1.0 k_B a_I r_I u_I g_I i_I y_I a_I d_I eu_E
+kadxawulxai 1.0 k_B a_I dx_I a_I w_I u_I lx_I ai_E
+wanxanggeu 1.0 w_B a_I nx_I a_I ng_I g_I eu_E
+paambeu 1.0 p_B aa_I m_I b_I eu_E
+aaranjjeu 1.0 aa_B r_I a_I nj_I j_I eu_E
+mitxtxaay 1.0 m_B i_I tx_I tx_I aa_I y_E
+kattirikkaay 1.0 k_B a_I t_I t_I i_I r_I i_I k_I k_I aa_I y_E
+aatxrxin 1.0 aa_B tx_I rx_I i_I n_E
+ooram 1.0 oo_B r_I a_I m_E
+karai 1.0 k_B a_I r_I ai_E
+iiwadeu 1.0 ii_B w_I a_I d_I eu_E
+ndalladeu 1.0 nd_B a_I l_I l_I a_I d_I eu_E
+paanam 1.0 p_B aa_I n_I a_I m_E
+siirxum 1.0 s_B ii_I rx_I u_I m_E
+paambai 1.0 p_B aa_I m_I b_I ai_E
+ndambaadee 1.0 nd_B a_I m_I b_I aa_I d_I ee_E
+haasanam 1.0 h_B aa_I s_I a_I n_I a_I m_E
+kucci 1.0 k_B u_I c_I c_I i_E
+inippeu 1.0 i_B n_I i_I p_I p_I eu_E
+suwai 1.0 s_B u_I w_I ai_E
+kaayccaleukkeu 1.0 k_B aa_I y_I c_I c_I a_I l_I eu_I k_I k_I eu_E
+suudxeu 1.0 s_B uu_I dx_I eu_E
+kanjji 1.0 k_B a_I nj_I j_I i_E
+sirxanddadeu 1.0 s_B i_I rx_I a_I nd_I d_I a_I d_I eu_E
+raagam 1.0 r_B aa_I g_I a_I m_E
+senggadir 1.0 s_B e_I ng_I g_I a_I d_I i_I r_E
+kattiyait 1.0 k_B a_I t_I t_I i_I y_I ai_I t_E
+tiitxtxaamee 1.0 t_B ii_I tx_I tx_I aa_I m_I ee_E
+puttiyait 1.0 p_B u_I t_I t_I i_I y_I ai_I t_E
+tiitxtxeu 1.0 t_B ii_I tx_I tx_I eu_E
+tolaikkaatxci 1.0 t_B o_I l_I ai_I k_I k_I aa_I tx_I c_I i_E
+oreu 1.0 o_B r_I eu_E
+uudxagam 1.0 uu_B dx_I a_I g_I a_I m_E
+accamillaadawan 1.0 a_B c_I c_I a_I m_I i_I l_I l_I aa_I d_I a_I w_I a_I n_E
+ambalam 1.0 a_B m_I b_I a_I l_I a_I m_E
+eerxuwaan 1.0 ee_B rx_I u_I w_I aa_I n_E
+anaittum 1.0 a_B n_I ai_I t_I t_I u_I m_E
+adxanggiya 1.0 a_B dx_I a_I ng_I g_I i_I y_I a_E
+toguppeu 1.0 t_B o_I g_I u_I p_I p_I eu_E
+suuranxam 1.0 s_B uu_I r_I a_I nx_I a_I m_E
+yaanai 1.0 y_B aa_I n_I ai_E
+pilxirxum 1.0 p_B i_I lx_I i_I rx_I u_I m_E
+karumbeu 1.0 k_B a_I r_I u_I m_I b_I eu_E
+kuranggeu 1.0 k_B u_I r_I a_I ng_I g_I eu_E
+panddai 1.0 p_B a_I nd_I d_I ai_E
+erxinddadeu 1.0 e_B rx_I i_I nd_I d_I a_I d_I eu_E
+etxtxeukkaali 1.0 e_B tx_I tx_I eu_I k_I k_I aa_I l_I i_E
+puucci 1.0 p_B uu_I c_I c_I i_E
+sittiramum 1.0 s_B i_I t_I t_I i_I r_I a_I m_I u_I m_E
+kaip 1.0 k_B ai_I p_E
+pazhakkam 1.0 p_B a_I zh_I a_I k_I k_I a_I m_E
+raagi 1.0 r_B aa_I g_I i_E
+poosxaakkaana 1.0 p_B oo_I sx_I aa_I k_I k_I aa_I n_I a_E
+unxaweu 1.0 u_B nx_I a_I w_I eu_E
+kanddaiyaanaalum 1.0 k_B a_I nd_I d_I ai_I y_I aa_I n_I aa_I l_I u_I m_E
+kasakkik 1.0 k_B a_I s_I a_I k_I k_I i_I k_E
+katxtxeu 1.0 k_B a_I tx_I tx_I eu_E
+kaagidam 1.0 k_B aa_I g_I i_I d_I a_I m_E
+anggee 1.0 a_B ng_I g_I ee_E
+inggee 1.0 i_B ng_I g_I ee_E
+paarkkaadee 1.0 p_B aa_I r_I k_I k_I aa_I d_I ee_E
+ndaadam 1.0 nd_B aa_I d_I a_I m_E
+mazhai 1.0 m_B a_I zh_I ai_E
+mugam 1.0 m_B u_I g_I a_I m_E
+kaanxaada 1.0 k_B aa_I nx_I aa_I d_I a_E
+payirxeu 1.0 p_B a_I y_I i_I rx_I eu_E
+uruppadxaadeu 1.0 u_B r_I u_I p_I p_I a_I dx_I aa_I d_I eu_E
+oolaiccuwadxi 1.0 oo_B l_I ai_I c_I c_I u_I w_I a_I dx_I i_E
+padxi 1.0 p_B a_I dx_I i_E
+paappaa 1.0 p_B aa_I p_I p_I aa_E
+paar 1.0 p_B aa_I r_E
+taraadaram 1.0 t_B a_I r_I aa_I d_I a_I r_I a_I m_E
+wallawaneukkeup 1.0 w_B a_I l_I l_I a_I w_I a_I n_I eu_I k_I k_I eu_I p_E
+pullum 1.0 p_B u_I l_I l_I u_I m_E
+aayudam 1.0 aa_B y_I u_I d_I a_I m_E
+iisaana 1.0 ii_B s_I aa_I n_I a_E
+muulaiyil 1.0 m_B uu_I l_I ai_I y_I i_I l_E
+amaraadee 1.0 a_B m_I a_I r_I aa_I d_I ee_E
+paarttaal 1.0 p_B aa_I r_I t_I t_I aa_I l_E
+puunai 1.0 p_B uu_I n_I ai_E
+paaynddaal 1.0 p_B aa_I y_I nd_I d_I aa_I l_E
+puli 1.0 p_B u_I l_I i_E
+pagal 1.0 p_B a_I g_I a_I l_E
+eppozhudum 1.0 e_B p_I p_I o_I zh_I u_I d_I u_I m_E
+sanddoosxamaaga 1.0 s_B a_I nd_I d_I oo_I sx_I a_I m_I aa_I g_I a_E
+iruppeen 1.0 i_B r_I u_I p_I p_I ee_I n_E
+panjjaanggam 1.0 p_B a_I nj_I j_I aa_I ng_I g_I a_I m_E
+meegam 1.0 m_B ee_I g_I a_I m_E
+asuran 1.0 a_B s_I u_I r_I a_I n_E
+tawam 1.0 t_B a_I w_I a_I m_E
+irunddaan 1.0 i_B r_I u_I nd_I d_I aa_I n_E
+paagam 1.0 p_B aa_I g_I a_I m_E
+kurxi 1.0 k_B u_I rx_I i_E
+pirxareukkeu 1.0 p_B i_I rx_I a_I r_I eu_I k_I k_I eu_E
+suuniyam 1.0 s_B uu_I n_I i_I y_I a_I m_E
+seyyaadee 1.0 s_B e_I y_I y_I aa_I d_I ee_E
+ndaatxtxil 1.0 nd_B aa_I tx_I tx_I i_I l_E
+tanxnxiir 1.0 t_B a_I nx_I nx_I ii_I r_E
+panjjam 1.0 p_B a_I nj_I j_I a_I m_E
+ndilawiyadeu 1.0 nd_B i_I l_I a_I w_I i_I y_I a_I d_I eu_E
+kudxisai 1.0 k_B u_I dx_I i_I s_I ai_E
+tiiyaal 1.0 t_B ii_I y_I aa_I l_E
+erinddadeu 1.0 e_B r_I i_I nd_I d_I a_I d_I eu_E
+sanggeu 1.0 s_B a_I ng_I g_I eu_E
+samiibamaaga 1.0 s_B a_I m_I ii_I b_I a_I m_I aa_I g_I a_E
+peydadeu 1.0 p_B e_I y_I d_I a_I d_I eu_E
+elumbeu 1.0 e_B l_I u_I m_I b_I eu_E
+majjai 1.0 m_B a_I j_I j_I ai_E
+waliyadeu 1.0 w_B a_I l_I i_I y_I a_I d_I eu_E
+puliyaip 1.0 p_B u_I l_I i_I y_I ai_I p_E
+paartteu 1.0 p_B aa_I r_I t_I t_I eu_E
+anjjeu 1.0 a_B nj_I j_I eu_E
+kadxam 1.0 k_B a_I dx_I a_I m_E
+sxasxtxi 1.0 sx_B a_I sx_I tx_I i_E
+uurudxan 1.0 uu_B r_I u_I dx_I a_I n_E
+waazh 1.0 w_B aa_I zh_E
+saalaiyil 1.0 s_B aa_I l_I ai_I y_I i_I l_E
+ndiir 1.0 nd_B ii_I r_E
+ndirambiyadeu 1.0 nd_B i_I r_I a_I m_I b_I i_I y_I a_I d_I eu_E
+ikkaraikkeu 1.0 i_B k_I k_I a_I r_I ai_I k_I k_I eu_E
+akkaraip 1.0 a_B k_I k_I a_I r_I ai_I p_E
+paccai 1.0 p_B a_I c_I c_I ai_E
+ammaa 1.0 a_B m_I m_I aa_E
+samaippadeu 1.0 s_B a_I m_I ai_I p_I p_I a_I d_I eu_E
+karxi 1.0 k_B a_I rx_I i_E
+suudxaamanxi 1.0 s_B uu_I dx_I aa_I m_I a_I nx_I i_E
+paattirattil 1.0 p_B aa_I t_I t_I i_I r_I a_I t_I t_I i_I l_E
+iiyam 1.0 ii_B y_I a_I m_E
+puuseu 1.0 p_B uu_I s_I eu_E
+koowil 1.0 k_B oo_I w_I i_I l_E
+gooburam 1.0 g_B oo_I b_I u_I r_I a_I m_E
+uyaramaanadeu 1.0 u_B y_I a_I r_I a_I m_I aa_I n_I a_I d_I eu_E
+tanddai 1.0 t_B a_I nd_I d_I ai_E
+uukkamee 1.0 uu_B k_I k_I a_I m_I ee_E
+peeseu 1.0 p_B ee_I s_I eu_E
+kaalxi 1.0 k_B aa_I lx_I i_E
+suulam 1.0 s_B uu_I l_I a_I m_E
+eenddinaan 1.0 ee_B nd_I d_I i_I n_I aa_I n_E
+aarjidam 1.0 aa_B r_I j_I i_I d_I a_I m_E
+puurwa 1.0 p_B uu_I r_I w_I a_E
+jenma 1.0 j_B e_I n_I m_I a_E
+banddam 1.0 b_B a_I nd_I d_I a_I m_E
+mayil 1.0 m_B a_I y_I i_I l_E
+agawum 1.0 a_B g_I a_I w_I u_I m_E
+kuudxi 1.0 k_B uu_I dx_I i_E
+waazhnddaal 1.0 w_B aa_I zh_I nd_I d_I aa_I l_E
+koodxi 1.0 k_B oo_I dx_I i_E
+ndanmai 1.0 nd_B a_I n_I m_I ai_E
+nduraiyiiral 1.0 nd_B u_I r_I ai_I y_I ii_I r_I a_I l_E
+minnuwadeu 1.0 m_B i_I n_I n_I u_I w_I a_I d_I eu_E
+ellaam 1.0 e_B l_I l_I aa_I m_E
+pon 1.0 p_B o_I n_E
+alla 1.0 a_B l_I l_I a_E
+patxtxaam 1.0 p_B a_I tx_I tx_I aa_I m_E
+pidxi 1.0 p_B i_I dx_I i_E
+un 1.0 u_B n_E
+poliwaaga 1.0 p_B o_I l_I i_I w_I aa_I g_I a_E
+porulx 1.0 p_B o_I r_I u_I lx_E
+pazhagaadee 1.0 p_B a_I zh_I a_I g_I aa_I d_I ee_E
+toosxattirxkeu 1.0 t_B oo_I sx_I a_I t_I t_I i_I rx_I k_I eu_E
+parigaaram 1.0 p_B a_I r_I i_I g_I aa_I r_I a_I m_E
+pazhanggudxi 1.0 p_B a_I zh_I a_I ng_I g_I u_I dx_I i_E
+makkalx 1.0 m_B a_I k_I k_I a_I lx_E
+panxbeu 1.0 p_B a_I nx_I b_I eu_E
+sirxappeu 1.0 s_B i_I rx_I a_I p_I p_I eu_E
+patxtxeu 1.0 p_B a_I tx_I tx_I eu_E
+parambarai 1.0 p_B a_I r_I a_I m_I b_I a_I r_I ai_E
+mannan 1.0 m_B a_I n_I n_I a_I n_E
+kiriidxam 1.0 k_B i_I r_I ii_I dx_I a_I m_E
+idxa 1.0 i_B dx_I a_E
+odeukkiidxeu 1.0 o_B d_I eu_I k_I k_I ii_I dx_I eu_E
+padxar 1.0 p_B a_I dx_I a_I r_E
+ooywinrxi 1.0 oo_B y_I w_I i_I n_I rx_I i_E
+uzhai 1.0 u_B zh_I ai_E
+panjjaayatteu 1.0 p_B a_I nj_I j_I aa_I y_I a_I t_I t_I eu_E
+wazhakkeu 1.0 w_B a_I zh_I a_I k_I k_I eu_E
+mudxiweukkeu 1.0 m_B u_I dx_I i_I w_I eu_I k_I k_I eu_E
+wanddadeu 1.0 w_B a_I nd_I d_I a_I d_I eu_E
+muyarxci 1.0 m_B u_I y_I a_I rx_I c_I i_E
+tarum 1.0 t_B a_I r_I u_I m_E
+otxrxumaiyee 1.0 o_B tx_I rx_I u_I m_I ai_I y_I ee_E
+balam 1.0 b_B a_I l_I a_I m_E
+manam 1.0 m_B a_I n_I a_I m_E
+tirxanddeu 1.0 t_B i_I rx_I a_I nd_I d_I eu_E
+saambal 1.0 s_B aa_I m_I b_I a_I l_E
+kari 1.0 k_B a_I r_I i_E
+pal 1.0 p_B a_I l_E
+tulakka 1.0 t_B u_I l_I a_I k_I k_I a_E
+udawum 1.0 u_B d_I a_I w_I u_I m_E
+raamar 1.0 r_B aa_I m_I a_I r_E
+aajar 1.0 aa_B j_I a_I r_E
+aanaar 1.0 aa_B n_I aa_I r_E
+tuukkam 1.0 t_B uu_I k_I k_I a_I m_E
+udxaleukkeu 1.0 u_B dx_I a_I l_I eu_I k_I k_I eu_E
+madippenx 1.0 m_B a_I d_I i_I p_I p_I e_I nx_E
+oppiidxeu 1.0 o_B p_I p_I ii_I dx_I eu_E
+tawarxeu 1.0 t_B a_I w_I a_I rx_I eu_E
+maadulxai 1.0 m_B aa_I d_I u_I lx_I ai_E
+enakkeu 1.0 e_B n_I a_I k_I k_I eu_E
+njaabaga 1.0 nj_B aa_I b_I a_I g_I a_E
+marxadi 1.0 m_B a_I rx_I a_I d_I i_E
+unxdxeu 1.0 u_B nx_I dx_I eu_E
+katxtxam 1.0 k_B a_I tx_I tx_I a_I m_E
+awan 1.0 a_B w_I a_I n_E
+eezhai 1.0 ee_B zh_I ai_E
+illai 1.0 i_B l_I l_I ai_E
+sanggee 1.0 s_B a_I ng_I g_I ee_E
+muzhanggeu 1.0 m_B u_I zh_I a_I ng_I g_I eu_E
+pariseu 1.0 p_B a_I r_I i_I s_I eu_E
+waitteuk 1.0 w_B ai_I t_I t_I eu_I k_E
+kootxtxai 1.0 k_B oo_I tx_I tx_I ai_E
+katxtxaadee 1.0 k_B a_I tx_I tx_I aa_I d_I ee_E
+saami 1.0 s_B aa_I m_I i_E
+asxtxalaksxmi 1.0 a_B sx_I tx_I a_I l_I a_I k_I sx_I m_I i_E
+puujai 1.0 p_B uu_I j_I ai_E
+ndalamalxikkum 1.0 nd_B a_I l_I a_I m_I a_I lx_I i_I k_I k_I u_I m_E
+kuyil 1.0 k_B u_I y_I i_I l_E
+kuuwum 1.0 k_B uu_I w_I u_I m_E
+deesiya 1.0 d_B ee_I s_I i_I y_I a_E
+panggeu 1.0 p_B a_I ng_I g_I eu_E
+uyarnddadeu 1.0 u_B y_I a_I r_I nd_I d_I a_I d_I eu_E
+bayam 1.0 b_B a_I y_I a_I m_E
+ndiikkeu 1.0 nd_B ii_I k_I k_I eu_E
+inggeu 1.0 i_B ng_I g_I eu_E
+tangguwadarxkeu 1.0 t_B a_I ng_I g_I u_I w_I a_I d_I a_I rx_I k_I eu_E
+ilawasam 1.0 i_B l_I a_I w_I a_I s_I a_I m_E
+pappadxam 1.0 p_B a_I p_I p_I a_I dx_I a_I m_E
+iratxtxai 1.0 i_B r_I a_I tx_I tx_I ai_E
+suzhi 1.0 s_B u_I zh_I i_E
+sirxuwan 1.0 s_B i_I rx_I u_I w_I a_I n_E
+seetxtxai 1.0 s_B ee_I tx_I tx_I ai_E
+seywaan 1.0 s_B e_I y_I w_I aa_I n_E
+winjnjaana 1.0 w_B i_I nj_I nj_I aa_I n_I a_E
+walxarcci 1.0 w_B a_I lx_I a_I r_I c_I c_I i_E
+ndaatxtxeu 1.0 nd_B aa_I tx_I tx_I eu_E
+inrxeu 1.0 i_B n_I rx_I eu_E
+palxlxiyil 1.0 p_B a_I lx_I lx_I i_I y_I i_I l_E
+ezhutteup 1.0 e_B zh_I u_I t_I t_I eu_I p_E
+pootxtxi 1.0 p_B oo_I tx_I tx_I i_E
+widiyai 1.0 w_B i_I d_I i_I y_I ai_E
+miirxinaal 1.0 m_B ii_I rx_I i_I n_I aa_I l_E
+abaraadam 1.0 a_B b_I a_I r_I aa_I d_I a_I m_E
+kanxidam 1.0 k_B a_I nx_I i_I d_I a_I m_E
+kanxnxeukkeu 1.0 k_B a_I nx_I nx_I eu_I k_I k_I eu_E
+mai 1.0 m_B ai_E
+azhageu 1.0 a_B zh_I a_I g_I eu_E
+waazhkkai 1.0 w_B aa_I zh_I k_I k_I ai_E
+kasxtxam 1.0 k_B a_I sx_I tx_I a_I m_E
+ndirxainddadeu 1.0 nd_B i_I rx_I ai_I nd_I d_I a_I d_I eu_E
+kariim 1.0 k_B a_I r_I ii_I m_E
+tusxtxan 1.0 t_B u_I sx_I tx_I a_I n_E
+tusxtxa 1.0 t_B u_I sx_I tx_I a_E
+seyal 1.0 s_B e_I y_I a_I l_E
+patxtxam 1.0 p_B a_I tx_I tx_I a_I m_E
+eerxpadeu 1.0 ee_B rx_I p_I a_I d_I eu_E
+igazhcci 1.0 i_B g_I a_I zh_I c_I c_I i_E
+daaniyam 1.0 d_B aa_I n_I i_I y_I a_I m_E
+onrxaam 1.0 o_B n_I rx_I aa_I m_E
+ndanrxaaga 1.0 nd_B a_I n_I rx_I aa_I g_I a_E
+irunddadeu 1.0 i_B r_I u_I nd_I d_I a_I d_I eu_E
+talaiwar 1.0 t_B a_I l_I ai_I w_I a_I r_E
+warugai 1.0 w_B a_I r_I u_I g_I ai_E
+uurjidam 1.0 uu_B r_I j_I i_I d_I a_I m_E
+aanadeu 1.0 aa_B n_I a_I d_I eu_E
+tazhii 1.0 t_B a_I zh_I ii_E
+sidambaram 1.0 s_B i_I d_I a_I m_I b_I a_I r_I a_I m_E
+njaayirxeu 1.0 nj_B aa_I y_I i_I rx_I eu_E
+widxumurxai 1.0 w_B i_I dx_I u_I m_I u_I rx_I ai_E
+kadxai 1.0 k_B a_I dx_I ai_E
+adxaippeu 1.0 a_B dx_I ai_I p_I p_I eu_E
+kanx 1.0 k_B a_I nx_E
+matxtxam 1.0 m_B a_I tx_I tx_I a_I m_E
+tatxtxaamee 1.0 t_B a_I tx_I tx_I aa_I m_I ee_E
+panxiweu 1.0 p_B a_I nx_I i_I w_I eu_E
+kalwiyee 1.0 k_B a_I l_I w_I i_I y_I ee_E
+sirxandda 1.0 s_B i_I rx_I a_I nd_I d_I a_E
+selwam 1.0 s_B e_I l_I w_I a_I m_E
+iwalx 1.0 i_B w_I a_I lx_E
+peyar 1.0 p_B e_I y_I a_I r_E
+usxaa 1.0 u_B sx_I aa_E
+sendndiir 1.0 s_B e_I nd_I nd_I ii_I r_E
+kalwi 1.0 k_B a_I l_I w_I i_E
+isxtxam 1.0 i_B sx_I tx_I a_I m_E
+pool 1.0 p_B oo_I l_E
+waazhalaam 1.0 w_B aa_I zh_I a_I l_I aa_I m_E
+taniyaa 1.0 t_B a_I n_I i_I y_I aa_E
+widxaa 1.0 w_B i_I dx_I aa_E
+ndaanjjil 1.0 nd_B aa_I nj_I j_I i_I l_E
+saram 1.0 s_B a_I r_I a_I m_E
+otxtxeuk 1.0 o_B tx_I tx_I eu_I k_E
+keetxpadeu 1.0 k_B ee_I tx_I p_I a_I d_I eu_E
+wilxaiyaatxtxeu 1.0 w_B i_I lx_I ai_I y_I aa_I tx_I tx_I eu_E
+uukkam 1.0 uu_B k_I k_I a_I m_E
+mannarai 1.0 m_B a_I n_I n_I a_I r_I ai_E
+waazhttinaargalx 1.0 w_B aa_I zh_I t_I t_I i_I n_I aa_I r_I g_I a_I lx_E
+kaatxrxulxlxa 1.0 k_B aa_I tx_I rx_I u_I lx_I lx_I a_E
+poodee 1.0 p_B oo_I d_I ee_E
+tuutxrxikkolx 1.0 t_B uu_I tx_I rx_I i_I k_I k_I o_I lx_E
+uuham 1.0 uu_B h_I a_I m_E
+ndooyatxrxa 1.0 nd_B oo_I y_I a_I tx_I rx_I a_E
+waazhwee 1.0 w_B aa_I zh_I w_I ee_E
+kurxaiwatxrxa 1.0 k_B u_I rx_I ai_I w_I a_I tx_I rx_I a_E
+suuriyan 1.0 s_B uu_I r_I i_I y_I a_I n_E
+olxi 1.0 o_B lx_I i_E
+weppam 1.0 w_B e_I p_I p_I a_I m_E
+usxnxam 1.0 u_B sx_I nx_I a_I m_E
+adigam 1.0 a_B d_I i_I g_I a_I m_E
+udxaiyaar 1.0 u_B dx_I ai_I y_I aa_I r_E
+adxaiyaar 1.0 a_B dx_I ai_I y_I aa_I r_E
+ozheukkamaaga 1.0 o_B zh_I eu_I k_I k_I a_I m_I aa_I g_I a_E
+ireu 1.0 i_B r_I eu_E
+sirxuwar 1.0 s_B i_I rx_I u_I w_I a_I r_E
+padxippadeu 1.0 p_B a_I dx_I i_I p_I p_I a_I d_I eu_E
+palxlxi 1.0 p_B a_I lx_I lx_I i_E
+malar 1.0 m_B a_I l_I a_I r_E
+tuuwi 1.0 t_B uu_I w_I i_E
+waazhtteu 1.0 w_B aa_I zh_I t_I t_I eu_E
+saasxtxaanggam 1.0 s_B aa_I sx_I tx_I aa_I ng_I g_I a_I m_E
+wizhunddeu 1.0 w_B i_I zh_I u_I nd_I d_I eu_E
+suwaril 1.0 s_B u_I w_I a_I r_I i_I l_E
+uurwadeu 1.0 uu_B r_I w_I a_I d_I eu_E
+palli 1.0 p_B a_I l_I l_I i_E
+tadxaagam 1.0 t_B a_I dx_I aa_I g_I a_I m_E
+adirsxtxam 1.0 a_B d_I i_I r_I sx_I tx_I a_I m_E
+biins 1.0 b_B ii_I n_I s_E
+oruwagai 1.0 o_B r_I u_I w_I a_I g_I ai_E
+kaay 1.0 k_B aa_I y_E
+njaalam 1.0 nj_B aa_I l_I a_I m_E
+seewalin 1.0 s_B ee_I w_I a_I l_I i_I n_E
+kuuwalil 1.0 k_B uu_I w_I a_I l_I i_I l_E
+pozhudeu 1.0 p_B o_I zh_I u_I d_I eu_E
+widxiyum 1.0 w_B i_I dx_I i_I y_I u_I m_E
+bakti 1.0 b_B a_I k_I t_I i_E
+suutxcamam 1.0 s_B uu_I tx_I c_I a_I m_I a_I m_E
+arxinddeu 1.0 a_B rx_I i_I nd_I d_I eu_E
+seyalpadxeu 1.0 s_B e_I y_I a_I l_I p_I a_I dx_I eu_E
+eepral 1.0 ee_B p_I r_I a_I l_E
+maada 1.0 m_B aa_I d_I a_E
+lajjai 1.0 l_B a_I j_I j_I ai_E
+enrxaal 1.0 e_B n_I rx_I aa_I l_E
+wekkam 1.0 w_B e_I k_I k_I a_I m_E
+sutxrxeu 1.0 s_B u_I tx_I rx_I eu_E
+suuzhal 1.0 s_B uu_I zh_I a_I l_E
+sugaadaaram 1.0 s_B u_I g_I aa_I d_I aa_I r_I a_I m_E
+pinpatxrxeu 1.0 p_B i_I n_I p_I a_I tx_I rx_I eu_E
+unggalx 1.0 u_B ng_I g_I a_I lx_E
+wiidxeu 1.0 w_B ii_I dx_I eu_E
+enggeu 1.0 e_B ng_I g_I eu_E
+onbadeu 1.0 o_B n_I b_I a_I d_I eu_E
+koolxgalx 1.0 k_B oo_I lx_I g_I a_I lx_E
+puujaiyil 1.0 p_B uu_I j_I ai_I y_I i_I l_E
+kalanddeu 1.0 k_B a_I l_I a_I nd_I d_I eu_E
+kolx 1.0 k_B o_I lx_E
+eelakkaay 1.0 ee_B l_I a_I k_I k_I aa_I y_E
+ndarxumanxam 1.0 nd_B a_I rx_I u_I m_I a_I nx_I a_I m_E
+anjjal 1.0 a_B nj_I j_I a_I l_E
+ndilaiyam 1.0 nd_B i_I l_I ai_I y_I a_I m_E
+sanddiran 1.0 s_B a_I nd_I d_I i_I r_I a_I n_E
+uccam 1.0 u_B c_I c_I a_I m_E
+todxeu 1.0 t_B o_I dx_I eu_E
+tiidum 1.0 t_B ii_I d_I u_I m_E
+ndanrxum 1.0 nd_B a_I n_I rx_I u_I m_E
+pirxar 1.0 p_B i_I rx_I a_I r_E
+tara 1.0 t_B a_I r_I a_E
+waaraa 1.0 w_B aa_I r_I aa_E
+aanggilam 1.0 aa_B ng_I g_I i_I l_I a_I m_E
+mozhi 1.0 m_B o_I zh_I i_E
+taajmahaalai 1.0 t_B aa_I j_I m_I a_I h_I aa_I l_I ai_E
+katxtxiyawar 1.0 k_B a_I tx_I tx_I i_I y_I a_I w_I a_I r_E
+sxaajagaan 1.0 sx_B aa_I j_I a_I g_I aa_I n_E
+pirxarai 1.0 p_B i_I rx_I a_I r_I ai_E
+igazhaadee 1.0 i_B g_I a_I zh_I aa_I d_I ee_E
+danusxkoodxi 1.0 d_B a_I n_I u_I sx_I k_I oo_I dx_I i_E
+katxrxeut 1.0 k_B a_I tx_I rx_I eu_I t_E
+taruween 1.0 t_B a_I r_I u_I w_I ee_I n_E
+karuttaranggam 1.0 k_B a_I r_I u_I t_I t_I a_I r_I a_I ng_I g_I a_I m_E
+harisxtxam 1.0 h_B a_I r_I i_I sx_I tx_I a_I m_E
+injji 1.0 i_B nj_I j_I i_E
+maruttuwa 1.0 m_B a_I r_I u_I t_I t_I u_I w_I a_E
+gunxam 1.0 g_B u_I nx_I a_I m_E
+waaynddadeu 1.0 w_B aa_I y_I nd_I d_I a_I d_I eu_E
+kaanjjipuram 1.0 k_B aa_I nj_I j_I i_I p_I u_I r_I a_I m_E
+padakkam 1.0 p_B a_I d_I a_I k_I k_I a_I m_E
+adxakkamee 1.0 a_B dx_I a_I k_I k_I a_I m_I ee_E
+widxuwadeu 1.0 w_B i_I dx_I u_I w_I a_I d_I eu_E
+kaalai 1.0 k_B aa_I l_I ai_E
+unxmaiyee 1.0 u_B nx_I m_I ai_I y_I ee_E
+kanxini 1.0 k_B a_I nx_I i_I n_I i_E
+kadxidam 1.0 k_B a_I dx_I i_I d_I a_I m_E
+purusxan 1.0 p_B u_I r_I u_I sx_I a_I n_E
+balasaali 1.0 b_B a_I l_I a_I s_I aa_I l_I i_E
+kambeu 1.0 k_B a_I m_I b_I eu_E
+magudxi 1.0 m_B a_I g_I u_I dx_I i_E
+aatxrxil 1.0 aa_B tx_I rx_I i_I l_E
+waruwadeu 1.0 w_B a_I r_I u_I w_I a_I d_I eu_E
+aasaiyaik 1.0 aa_B s_I ai_I y_I ai_I k_E
+kurxai 1.0 k_B u_I rx_I ai_E
+raajjiyam 1.0 r_B aa_I j_I j_I i_I y_I a_I m_E
+weenxdxum 1.0 w_B ee_I nx_I dx_I u_I m_E
+padxa 1.0 p_B a_I dx_I a_E
+ndaagam 1.0 nd_B aa_I g_I a_I m_E
+ndaanxam 1.0 nd_B aa_I nx_I a_I m_E
+manxal 1.0 m_B a_I nx_I a_I l_E
+kedxuwaan 1.0 k_B e_I dx_I u_I w_I aa_I n_E
+keedxeu 1.0 k_B ee_I dx_I eu_E
+ndinaippaan 1.0 nd_B i_I n_I ai_I p_I p_I aa_I n_E
+tatruubamaaga 1.0 t_B a_I t_I r_I uu_I b_I a_I m_I aa_I g_I a_E
+ndadxitteuk 1.0 nd_B a_I dx_I i_I t_I t_I eu_I k_E
+kaatxtxa 1.0 k_B aa_I tx_I tx_I a_E
+njaanam 1.0 nj_B aa_I n_I a_I m_E
+teewai 1.0 t_B ee_I w_I ai_E
+ootxtxai 1.0 oo_B tx_I tx_I ai_E
+idxeu 1.0 i_B dx_I eu_E
+iranxdxeu 1.0 i_B r_I a_I nx_I dx_I eu_E
+puunxdxeu 1.0 p_B uu_I nx_I dx_I eu_E
+tii 1.0 t_B ii_E
+muutxtxi 1.0 m_B uu_I tx_I tx_I i_E
+wibatteu 1.0 w_B i_I b_I a_I t_I t_I eu_E
+ndadxanddadeu 1.0 nd_B a_I dx_I a_I nd_I d_I a_I d_I eu_E
+rambam 1.0 r_B a_I m_I b_I a_I m_E
+kaanxbadeu 1.0 k_B aa_I nx_I b_I a_I d_I eu_E
+een 1.0 ee_B n_E
+ippadxi 1.0 i_B p_I p_I a_I dx_I i_E
+ndoonjjaanaaga 1.0 nd_B oo_I nj_I j_I aa_I n_I aa_I g_I a_E
+ireukkaan 1.0 i_B r_I eu_I k_I k_I aa_I n_E
+amaiccar 1.0 a_B m_I ai_I c_I c_I a_I r_E
+wanddaar 1.0 w_B a_I nd_I d_I aa_I r_E
+amsanggalx 1.0 a_B m_I s_I a_I ng_I g_I a_I lx_E
+pakkam 1.0 p_B a_I k_I k_I a_I m_E
+kalagam 1.0 k_B a_I l_I a_I g_I a_I m_E
+pirxanddaal 1.0 p_B i_I rx_I a_I nd_I d_I aa_I l_E
+ndiyaayam 1.0 nd_B i_I y_I aa_I y_I a_I m_E
+pirxakkum 1.0 p_B i_I rx_I a_I k_I k_I u_I m_E
+siikkiram 1.0 s_B ii_I k_I k_I i_I r_I a_I m_E
+eerxpaadxeu 1.0 ee_B rx_I p_I aa_I dx_I eu_E
+tanggalx 1.0 t_B a_I ng_I g_I a_I lx_E
+udxaimai 1.0 u_B dx_I ai_I m_I ai_E
+gawanam 1.0 g_B a_I w_I a_I n_I a_I m_E
+selutteu 1.0 s_B e_I l_I u_I t_I t_I eu_E
+kanxnxiir 1.0 k_B a_I nx_I nx_I ii_I r_E
+anjjali 1.0 a_B nj_I j_I a_I l_I i_E
+seluttinar 1.0 s_B e_I l_I u_I t_I t_I i_I n_I a_I r_E
+moodiram 1.0 m_B oo_I d_I i_I r_I a_I m_E
+togudi 1.0 t_B o_I g_I u_I d_I i_E
+hetx 1.0 h_B e_I tx_E
+sanddippeu 1.0 s_B a_I nd_I d_I i_I p_I p_I eu_E
+pooliyaana 1.0 p_B oo_I l_I i_I y_I aa_I n_I a_E
+tawir 1.0 t_B a_I w_I i_I r_E
+arunddeu 1.0 a_B r_I u_I nd_I d_I eu_E
+eerikkeu 1.0 ee_B r_I i_I k_I k_I eu_E
+appaal 1.0 a_B p_I p_I aa_I l_E
+sakkaram 1.0 s_B a_I k_I k_I a_I r_I a_I m_E
+ndanrxi 1.0 nd_B a_I n_I rx_I i_E
+pootxtxaalum 1.0 p_B oo_I tx_I tx_I aa_I l_I u_I m_E
+alxanddeu 1.0 a_B lx_I a_I nd_I d_I eu_E
+poodxeu 1.0 p_B oo_I dx_I eu_E
+hastam 1.0 h_B a_I s_I t_I a_I m_E
+maargazhik 1.0 m_B aa_I r_I g_I a_I zh_I i_I k_E
+kulxir 1.0 k_B u_I lx_I i_I r_E
+kunggumam 1.0 k_B u_I ng_I g_I u_I m_I a_I m_E
+siwappeu 1.0 s_B i_I w_I a_I p_I p_I eu_E
+ajiiranxak 1.0 a_B j_I ii_I r_I a_I nx_I a_I k_E
+koolxaarxeu 1.0 k_B oo_I lx_I aa_I rx_I eu_E
+maarc 1.0 m_B aa_I r_I c_E
+maadattil 1.0 m_B aa_I d_I a_I t_I t_I i_I l_E
+mahaawiir 1.0 m_B a_I h_I aa_I w_I ii_I r_E
+jeyanddi 1.0 j_B e_I y_I a_I nd_I d_I i_E
+enggalx 1.0 e_B ng_I g_I a_I lx_E
+baaradam 1.0 b_B aa_I r_I a_I d_I a_I m_E
+kaigalxai 1.0 k_B ai_I g_I a_I lx_I ai_E
+inxai 1.0 i_B nx_I ai_E
+ndadxai 1.0 nd_B a_I dx_I ai_E
+ozhunggeu 1.0 o_B zh_I u_I ng_I g_I eu_E
+tozhilil 1.0 t_B o_I zh_I i_I l_I i_I l_E
+muuladanam 1.0 m_B uu_I l_I a_I d_I a_I n_I a_I m_E
+poodxa 1.0 p_B oo_I dx_I a_E
+kiizhoor 1.0 k_B ii_I zh_I oo_I r_E
+aayinum 1.0 aa_B y_I i_I n_I u_I m_E
+taazha 1.0 t_B aa_I zh_I a_E
+urai 1.0 u_B r_I ai_E
+seyaleukkeut 1.0 s_B e_I y_I a_I l_I eu_I k_I k_I eu_I t_E
+tiirweu 1.0 t_B ii_I r_I w_I eu_E
+kaanxeu 1.0 k_B aa_I nx_I eu_E
+taay 1.0 t_B aa_I y_E
+ndiinggalx 1.0 nd_B ii_I ng_I g_I a_I lx_E
+sxeemamaaga 1.0 sx_B ee_I m_I a_I m_I aa_I g_I a_E
+irunggalx 1.0 i_B r_I u_I ng_I g_I a_I lx_E
+jeyhindd 1.0 j_B e_I y_I h_I i_I nd_I d_E
+enrxeu 1.0 e_B n_I rx_I eu_E
+kuurxeu 1.0 k_B uu_I rx_I eu_E
+teejas 1.0 t_B ee_I j_I a_I s_E
+aasaiyaay 1.0 aa_B s_I ai_I y_I aa_I y_E
+tinbadeu 1.0 t_B i_I n_I b_I a_I d_I eu_E
+wellam 1.0 w_B e_I l_I l_I a_I m_E
+tootxtxattai 1.0 t_B oo_I tx_I tx_I a_I t_I t_I ai_E
+gawani 1.0 g_B a_I w_I a_I n_I i_E
+wiidi 1.0 w_B ii_I d_I i_E
+wazhiyaaga 1.0 w_B a_I zh_I i_I y_I aa_I g_I a_E
+sellum 1.0 s_B e_I l_I l_I u_I m_E
+peerunddeu 1.0 p_B ee_I r_I u_I nd_I d_I eu_E
+pasittaalum 1.0 p_B a_I s_I i_I t_I t_I aa_I l_I u_I m_E
+pullait 1.0 p_B u_I l_I l_I ai_I t_E
+tinnaadeu 1.0 t_B i_I n_I n_I aa_I d_I eu_E
+amaanusxiyam 1.0 a_B m_I aa_I n_I u_I sx_I i_I y_I a_I m_E
+ndirxaindda 1.0 nd_B i_I rx_I ai_I nd_I d_I a_E
+idxam 1.0 i_B dx_I a_I m_E
+tanggam 1.0 t_B a_I ng_I g_I a_I m_E
+paambin 1.0 p_B aa_I m_I b_I i_I n_E
+ndanjjeu 1.0 nd_B a_I nj_I j_I eu_E
+kodxiyadeu 1.0 k_B o_I dx_I i_I y_I a_I d_I eu_E
+puttagam 1.0 p_B u_I t_I t_I a_I g_I a_I m_E
+janamee 1.0 j_B a_I n_I a_I m_I ee_E
+ndam 1.0 nd_B a_I m_E
+marattai 1.0 m_B a_I r_I a_I t_I t_I ai_E
+arxuppadeu 1.0 a_B rx_I u_I p_I p_I a_I d_I eu_E
+waalx 1.0 w_B aa_I lx_E
+risxikkeu 1.0 r_B i_I sx_I i_I k_I k_I eu_E
+roosxam 1.0 r_B oo_I sx_I a_I m_E
+saarxeu 1.0 s_B aa_I rx_I eu_E
+urxinjji 1.0 u_B rx_I i_I nj_I j_I i_E
+manjjalx 1.0 m_B a_I nj_I j_I a_I lx_E
+tuulx 1.0 t_B uu_I lx_E
+miin 1.0 m_B ii_I n_E
+waarattin 1.0 w_B aa_I r_I a_I t_I t_I i_I n_E
+mudal 1.0 m_B u_I d_I a_I l_E
+ndaalx 1.0 nd_B aa_I lx_E
+tinggalx 1.0 t_B i_I ng_I g_I a_I lx_E
+katti 1.0 k_B a_I t_I t_I i_E
+janawari 1.0 j_B a_I n_I a_I w_I a_I r_I i_E
+maadam 1.0 m_B aa_I d_I a_I m_E
+karam 1.0 k_B a_I r_I a_I m_E
+siwaneukkeu 1.0 s_B i_I w_I a_I n_I eu_I k_I k_I eu_E
+abisxeegam 1.0 a_B b_I i_I sx_I ee_I g_I a_I m_E
+seydanar 1.0 s_B e_I y_I d_I a_I n_I a_I r_E
+agal 1.0 a_B g_I a_I l_E
+watxtxam 1.0 w_B a_I tx_I tx_I a_I m_E
+anbee 1.0 a_B n_I b_I ee_E
+kadxawulx 1.0 k_B a_I dx_I a_I w_I u_I lx_E
+wiitxtxil 1.0 w_B ii_I tx_I tx_I i_I l_E
+wiseesxam 1.0 w_B i_I s_I ee_I sx_I a_I m_E
+pambaram 1.0 p_B a_I m_I b_I a_I r_I a_I m_E
+suzhatxrxeu 1.0 s_B u_I zh_I a_I tx_I rx_I eu_E
+sarppam 1.0 s_B a_I r_I p_I p_I a_I m_E
+ndiidxikkum 1.0 nd_B ii_I dx_I i_I k_I k_I u_I m_E
+ilxamaiyil 1.0 i_B lx_I a_I m_I ai_I y_I i_I l_E
+kal 1.0 k_B a_I l_E
+manx 1.0 m_B a_I nx_E
+waasanai 1.0 w_B aa_I s_I a_I n_I ai_E
+ezhil 1.0 e_B zh_I i_I l_E
+migundda 1.0 m_B i_I g_I u_I nd_I d_I a_E
+waanam 1.0 w_B aa_I n_I a_I m_E
+onrxee 1.0 o_B n_I rx_I ee_E
+kulam 1.0 k_B u_I l_I a_I m_E
+jaadi 1.0 j_B aa_I d_I i_E
+senddamizhum 1.0 s_B e_I nd_I d_I a_I m_I i_I zh_I u_I m_E
+ndaappazhakkam 1.0 nd_B aa_I p_I p_I a_I zh_I a_I k_I k_I a_I m_E
+tanggattin 1.0 t_B a_I ng_I g_I a_I t_I t_I i_I n_E
+wilai 1.0 w_B i_I l_I ai_E
+inddiyaawin 1.0 i_B nd_I d_I i_I y_I aa_I w_I i_I n_E
+talaindagaram 1.0 t_B a_I l_I ai_I nd_I a_I g_I a_I r_I a_I m_E
+txelli 1.0 tx_B e_I l_I l_I i_E
+baktiyoodxeu 1.0 b_B a_I k_I t_I i_I y_I oo_I dx_I eu_E
+sanggamam 1.0 s_B a_I ng_I g_I a_I m_I a_I m_E
+kani 1.0 k_B a_I n_I i_E
+pagalawan 1.0 p_B a_I g_I a_I l_I a_I w_I a_I n_E
+padxitteup 1.0 p_B a_I dx_I i_I t_I t_I eu_I p_E
+perxeu 1.0 p_B e_I rx_I eu_E
+taagam 1.0 t_B aa_I g_I a_I m_E
+ndari 1.0 nd_B a_I r_I i_E
+uulxaiyidxum 1.0 uu_B lx_I ai_I y_I i_I dx_I u_I m_E
+guruwai 1.0 g_B u_I r_I u_I w_I ai_E
+sisxyan 1.0 s_B i_I sx_I y_I a_I n_E
+wanxangginaan 1.0 w_B a_I nx_I a_I ng_I g_I i_I n_I aa_I n_E
+kasxaayam 1.0 k_B a_I sx_I aa_I y_I a_I m_E
+jagam 1.0 j_B a_I g_I a_I m_E
+pazham 1.0 p_B a_I zh_I a_I m_E
+petxtxiyai 1.0 p_B e_I tx_I tx_I i_I y_I ai_E
+kiizhee 1.0 k_B ii_I zh_I ee_E
+kayirxeu 1.0 k_B a_I y_I i_I rx_I eu_E
+agattin 1.0 a_B g_I a_I t_I t_I i_I n_E
+mugattil 1.0 m_B u_I g_I a_I t_I t_I i_I l_E
+teriyum 1.0 t_B e_I r_I i_I y_I u_I m_E
+insol 1.0 i_B n_I s_I o_I l_E
+iyambeu 1.0 i_B y_I a_I m_I b_I eu_E
+waay 1.0 w_B aa_I y_E
+jaalam 1.0 j_B aa_I l_I a_I m_E
+kaatxtxum 1.0 k_B aa_I tx_I tx_I u_I m_E
+manidan 1.0 m_B a_I n_I i_I d_I a_I n_E
+kadai 1.0 k_B a_I d_I ai_E
+sol 1.0 s_B o_I l_E
+muulxai 1.0 m_B uu_I lx_I ai_E
+illaadawan 1.0 i_B l_I l_I aa_I d_I a_I w_I a_I n_E
+mutxtxaalx 1.0 m_B u_I tx_I tx_I aa_I lx_E
+hanuman 1.0 h_B a_I n_I u_I m_I a_I n_E
+aktxoobar 1.0 a_B k_I tx_I oo_I b_I a_I r_E
+gaanddi 1.0 g_B aa_I nd_I d_I i_E
+illaiyadxi 1.0 i_B l_I l_I ai_I y_I a_I dx_I i_E
+yaadum 1.0 y_B aa_I d_I u_I m_E
+uuree 1.0 uu_B r_I ee_E
+yaawarum 1.0 y_B aa_I w_I a_I r_I u_I m_E
+keelxir 1.0 k_B ee_I lx_I i_I r_E
+bajanai 1.0 b_B a_I j_I a_I n_I ai_E
+migawum 1.0 m_B i_I g_I a_I w_I u_I m_E
+pirabalam 1.0 p_B i_I r_I a_I b_I a_I l_I a_I m_E
+adxaadeu 1.0 a_B dx_I aa_I d_I eu_E
+seydawan 1.0 s_B e_I y_I d_I a_I w_I a_I n_E
+padxaadeu 1.0 p_B a_I dx_I aa_I d_I eu_E
+padxuwaan 1.0 p_B a_I dx_I u_I w_I aa_I n_E
+tambi 1.0 t_B a_I m_I b_I i_E
+tamizh 1.0 t_B a_I m_I i_I zh_E
+taa 1.0 t_B aa_E
+padxeukkai 1.0 p_B a_I dx_I eu_I k_I k_I ai_E
+samacciir 1.0 s_B a_I m_I a_I c_I c_I ii_I r_E
+murxaiyaanadeu 1.0 m_B u_I rx_I ai_I y_I aa_I n_I a_I d_I eu_E
+ahimsai 1.0 a_B h_I i_I m_I s_I ai_E
+wazhiyaip 1.0 w_B a_I zh_I i_I y_I ai_I p_E
+eetxrxam 1.0 ee_B tx_I rx_I a_I m_E
+alxaweukkeu 1.0 a_B lx_I a_I w_I eu_I k_I k_I eu_E
+minjjinaal 1.0 m_B i_I nj_I j_I i_I n_I aa_I l_E
+amudamum 1.0 a_B m_I u_I d_I a_I m_I u_I m_E
+wisxam 1.0 w_B i_I sx_I a_I m_E
+kutxtxaiyil 1.0 k_B u_I tx_I tx_I ai_I y_I i_I l_E
+teenggiyadeu 1.0 t_B ee_I ng_I g_I i_I y_I a_I d_I eu_E
+purxaa 1.0 p_B u_I rx_I aa_E
+tuudeu 1.0 t_B uu_I d_I eu_E
+anuppa 1.0 a_B n_I u_I p_I p_I a_E
+tolai 1.0 t_B o_I l_I ai_E
+duuram 1.0 d_B uu_I r_I a_I m_E
+parxanddadeu 1.0 p_B a_I rx_I a_I nd_I d_I a_I d_I eu_E
+sotteu 1.0 s_B o_I t_I t_I eu_E
+jadxai 1.0 j_B a_I dx_I ai_E
+pinni 1.0 p_B i_I n_I n_I i_E
+weesxam 1.0 w_B ee_I sx_I a_I m_E
+teruwil 1.0 t_B e_I r_I u_I w_I i_I l_E
+koosxam 1.0 k_B oo_I sx_I a_I m_E
+ezhuppaadee 1.0 e_B zh_I u_I p_I p_I aa_I d_I ee_E
+tozhil 1.0 t_B o_I zh_I i_I l_E
+oppudal 1.0 o_B p_I p_I u_I d_I a_I l_E
+wandda 1.0 w_B a_I nd_I d_I a_E
+wisxayattaik 1.0 w_B i_I sx_I a_I y_I a_I t_I t_I ai_I k_E
+kaalaiyil 1.0 k_B aa_I l_I ai_I y_I i_I l_E
+ezheu 1.0 e_B zh_I eu_E
+aidiigam 1.0 ai_B d_I ii_I g_I a_I m_E
+peesaadee 1.0 p_B ee_I s_I aa_I d_I ee_E
+ganxeesx 1.0 g_B a_I nx_I ee_I sx_E
+ganxeesanait 1.0 g_B a_I nx_I ee_I s_I a_I n_I ai_I t_E
+tudi 1.0 t_B u_I d_I i_E
+eewuganxai 1.0 ee_B w_I u_I g_I a_I nx_I ai_E
+eenddeu 1.0 ee_B nd_I d_I eu_E
+panxdxam 1.0 p_B a_I nx_I dx_I a_I m_E
+kuurnddeu 1.0 k_B uu_I r_I nd_I d_I eu_E
+lanjja 1.0 l_B a_I nj_I j_I a_E
+ozhippeu 1.0 o_B zh_I i_I p_I p_I eu_E
+satxtxam 1.0 s_B a_I tx_I tx_I a_I m_E
+ndalla 1.0 nd_B a_I l_I l_I a_E
+kitxtxawanddaal 1.0 k_B i_I tx_I tx_I a_I w_I a_I nd_I d_I aa_I l_E
+mutxtxap 1.0 m_B u_I tx_I tx_I a_I p_E
+pagai 1.0 p_B a_I g_I ai_E
+toonrxiya 1.0 t_B oo_I n_I rx_I i_I y_I a_E
+pugazhin 1.0 p_B u_I g_I a_I zh_I i_I n_E
+toonrxuga 1.0 t_B oo_I n_I rx_I u_I g_I a_E
+indda 1.0 i_B nd_I d_I a_E
+raajaa 1.0 r_B aa_I j_I aa_E
+endda 1.0 e_B nd_I d_I a_E
+baasxai 1.0 b_B aa_I sx_I ai_E
+peesinaar 1.0 p_B ee_I s_I i_I n_I aa_I r_E
+aimpulan 1.0 ai_B m_I p_I u_I l_I a_I n_E
+adxakkeu 1.0 a_B dx_I a_I k_I k_I eu_E
+kudxumbam 1.0 k_B u_I dx_I u_I m_I b_I a_I m_E
+kadambam 1.0 k_B a_I d_I a_I m_I b_I a_I m_E
+buwaneesxwar 1.0 b_B u_I w_I a_I n_I ee_I sx_I w_I a_I r_E
+uuril 1.0 uu_B r_I i_I l_E
+puugambam 1.0 p_B uu_I g_I a_I m_I b_I a_I m_E
+jalam 1.0 j_B a_I l_I a_I m_E
+enxnxey 1.0 e_B nx_I nx_I e_I y_E
+teeytteuk 1.0 t_B ee_I y_I t_I t_I eu_I k_E
+kulxi 1.0 k_B u_I lx_I i_E
+sxanxmugak 1.0 sx_B a_I nx_I m_I u_I g_I a_I k_E
+kawasam 1.0 k_B a_I w_I a_I s_I a_I m_E
+adxuppil 1.0 a_B dx_I u_I p_I p_I i_I l_E
+erxiwadeu 1.0 e_B rx_I i_I w_I a_I d_I eu_E
+maatxtxeukkeu 1.0 m_B aa_I tx_I tx_I eu_I k_I k_I eu_E
+iruppadeu 1.0 i_B r_I u_I p_I p_I a_I d_I eu_E
+waal 1.0 w_B aa_I l_E
+singgam 1.0 s_B i_I ng_I g_I a_I m_E
+garjikkum 1.0 g_B a_I r_I j_I i_I k_I k_I u_I m_E
+maiyanggalx 1.0 m_B ai_I y_I a_I ng_I g_I a_I lx_E
+wanxdxi 1.0 w_B a_I nx_I dx_I i_E
+izhuppadeu 1.0 i_B zh_I u_I p_I p_I a_I d_I eu_E
+kaalxai 1.0 k_B aa_I lx_I ai_E
+jagattinai 1.0 j_B a_I g_I a_I t_I t_I i_I n_I ai_E
+azhittidxuwoom 1.0 a_B zh_I i_I t_I t_I i_I dx_I u_I w_I oo_I m_E
+senggai 1.0 s_B e_I ng_I g_I ai_E
+kambeuk 1.0 k_B a_I m_I b_I eu_I k_E
+kuuzh 1.0 k_B uu_I zh_E
+suwaiyaanadeu 1.0 s_B u_I w_I ai_I y_I aa_I n_I a_I d_I eu_E
+elximaiyaay 1.0 e_B lx_I i_I m_I ai_I y_I aa_I y_E
+ndaay 1.0 nd_B aa_I y_E
+kuzhi 1.0 k_B u_I zh_I i_E
+toonxdxiyadeu 1.0 t_B oo_I nx_I dx_I i_I y_I a_I d_I eu_E
+otxtxagam 1.0 o_B tx_I tx_I a_I g_I a_I m_E
+wilanggeu 1.0 w_B i_I l_I a_I ng_I g_I eu_E
+meejai 1.0 m_B ee_I j_I ai_E
+meel 1.0 m_B ee_I l_E
+eerxi 1.0 ee_B rx_I i_E
+ndil 1.0 nd_B i_I l_E
+poodum 1.0 p_B oo_I d_I u_I m_E
+enrxa 1.0 e_B n_I rx_I a_E
+manamee 1.0 m_B a_I n_I a_I m_I ee_E
+seyyum 1.0 s_B e_I y_I y_I u_I m_E
+marunddeu 1.0 m_B a_I r_I u_I nd_I d_I eu_E
+jaalraa 1.0 j_B aa_I l_I r_I aa_E
+weenxdxaam 1.0 w_B ee_I nx_I dx_I aa_I m_E
+banggalxaadeesx 1.0 b_B a_I ng_I g_I a_I lx_I aa_I d_I ee_I sx_E
+ndaadxeu 1.0 nd_B aa_I dx_I eu_E
+punidam 1.0 p_B u_I n_I i_I d_I a_I m_E
+adeu 1.0 a_B d_I eu_E
+uur 1.0 uu_B r_E
+ndacceup 1.0 nd_B a_I c_I c_I eu_I p_E
+pugai 1.0 p_B u_I g_I ai_E
+oosoonai 1.0 oo_B s_I oo_I n_I ai_E
+baadikkum 1.0 b_B aa_I d_I i_I k_I k_I u_I m_E
+anxnxaa 1.0 a_B nx_I nx_I aa_E
+waa 1.0 w_B aa_E
+wibattil 1.0 w_B i_I b_I a_I t_I t_I i_I l_E
+uunam 1.0 uu_B n_I a_I m_E
+senggamalam 1.0 s_B e_I ng_I g_I a_I m_I a_I l_I a_I m_E
+unxmai 1.0 u_B nx_I m_I ai_E
+kai 1.0 k_B ai_E
+kodxeukkum 1.0 k_B o_I dx_I eu_I k_I k_I u_I m_E
+eetxtxeu 1.0 ee_B tx_I tx_I eu_E
+suraikkaay 1.0 s_B u_I r_I ai_I k_I k_I aa_I y_E
+karxikkeu 1.0 k_B a_I rx_I i_I k_I k_I eu_E
+udawaadeu 1.0 u_B d_I a_I w_I aa_I d_I eu_E
+sil 1.0 sil_S
+!SIL 1.0 sil_S

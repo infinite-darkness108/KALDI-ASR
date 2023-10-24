@@ -1,0 +1,14 @@
+# nnet3-am-init exp_FG/tri_8_2000_ali/final.mdl exp_FG/LSTM/0.raw - | nnet3-am-train-transitions - "ark:gunzip -c exp_FG/tri_8_2000_ali/ali.*.gz|" exp_FG/LSTM/0.mdl 
+# Started at Thu Aug  3 11:13:51 IST 2023
+#
+nnet3-am-init exp_FG/tri_8_2000_ali/final.mdl exp_FG/LSTM/0.raw - 
+nnet3-am-train-transitions - 'ark:gunzip -c exp_FG/tri_8_2000_ali/ali.*.gz|' exp_FG/LSTM/0.mdl 
+LOG (nnet3-am-init[5.5.1074~1-71f3]:main():nnet3-am-init.cc:96) Initialized am-nnet (neural net acoustic model) and wrote to -
+LOG (nnet3-am-train-transitions[5.5.1074~1-71f3]:main():nnet3-am-train-transitions.cc:118) Accumulated transition stats from 2919 utterances.
+LOG (nnet3-am-train-transitions[5.5.1074~1-71f3]:MleUpdate():transition-model.cc:528) TransitionModel::Update, objf change is 2.59433e-05 per frame over 834422 frames. 
+LOG (nnet3-am-train-transitions[5.5.1074~1-71f3]:MleUpdate():transition-model.cc:531) 29 probabilities floored, 2843 out of 4564 transition-states skipped due to insuffient data (it is normal to have some skipped.)
+LOG (nnet3-am-train-transitions[5.5.1074~1-71f3]:main():nnet3-am-train-transitions.cc:125) Transition model update: average 2.59433e-05 log-like improvement per frame over 834422 frames.
+LOG (nnet3-am-train-transitions[5.5.1074~1-71f3]:main():nnet3-am-train-transitions.cc:131) Setting priors of pdfs in the model.
+LOG (nnet3-am-train-transitions[5.5.1074~1-71f3]:main():nnet3-am-train-transitions.cc:140) Trained transitions of neural network model and wrote it to exp_FG/LSTM/0.mdl
+# Accounting: time=0 threads=1
+# Ended (code 0) at Thu Aug  3 11:13:51 IST 2023, elapsed time 0 seconds

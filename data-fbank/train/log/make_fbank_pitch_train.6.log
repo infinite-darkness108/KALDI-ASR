@@ -1,0 +1,341 @@
+# paste-feats --length-tolerance=2 "ark:compute-fbank-feats  --write-utt2dur=ark,t:data-fbank/train/log/utt2dur.6    --verbose=2 --config=conf/fbank.conf scp,p:data-fbank/train/log/wav_train.6.scp ark:- |" "ark,s,cs:compute-kaldi-pitch-feats --verbose=2       --config=conf/pitch.conf scp,p:data-fbank/train/log/wav_train.6.scp ark:- |     process-kaldi-pitch-feats  ark:- ark:- |" ark:- | copy-feats --compress=true --write-num-frames=ark,t:data-fbank/train/log/utt2num_frames.6 ark:- ark,scp:/media/speech/hdd-1tb/2024_B1/Tamil_ASR_normal/data-fbank/train/data/raw_fbank_pitch_train.6.ark,/media/speech/hdd-1tb/2024_B1/Tamil_ASR_normal/data-fbank/train/data/raw_fbank_pitch_train.6.scp 
+# Started at Thu Aug  3 11:41:53 IST 2023
+#
+paste-feats --length-tolerance=2 'ark:compute-fbank-feats  --write-utt2dur=ark,t:data-fbank/train/log/utt2dur.6    --verbose=2 --config=conf/fbank.conf scp,p:data-fbank/train/log/wav_train.6.scp ark:- |' 'ark,s,cs:compute-kaldi-pitch-feats --verbose=2       --config=conf/pitch.conf scp,p:data-fbank/train/log/wav_train.6.scp ark:- |     process-kaldi-pitch-feats  ark:- ark:- |' ark:- 
+copy-feats --compress=true --write-num-frames=ark,t:data-fbank/train/log/utt2num_frames.6 ark:- ark,scp:/media/speech/hdd-1tb/2024_B1/Tamil_ASR_normal/data-fbank/train/data/raw_fbank_pitch_train.6.ark,/media/speech/hdd-1tb/2024_B1/Tamil_ASR_normal/data-fbank/train/data/raw_fbank_pitch_train.6.scp 
+compute-fbank-feats --write-utt2dur=ark,t:data-fbank/train/log/utt2dur.6 --verbose=2 --config=conf/fbank.conf scp,p:data-fbank/train/log/wav_train.6.scp ark:- 
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_1
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_10
+process-kaldi-pitch-feats ark:- ark:- 
+compute-kaldi-pitch-feats --verbose=2 --config=conf/pitch.conf scp,p:data-fbank/train/log/wav_train.6.scp ark:- 
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_100
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_101
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_102
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_103
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_105
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_108
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_109
+LOG (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:181) Processed 10 utterances
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_11
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_110
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_111
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_112
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_114
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_115
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_116
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_117
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_118
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_12
+LOG (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:181) Processed 20 utterances
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_120
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_121
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_122
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_124
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_125
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_128
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_129
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_13
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_131
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_132
+LOG (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:181) Processed 30 utterances
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_133
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_134
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_135
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_136
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_137
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_138
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_139
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_14
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_141
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_142
+LOG (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:181) Processed 40 utterances
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_143
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_144
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_145
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_146
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_147
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_148
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_149
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_15
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_150
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_151
+VLOG[2] (compute-kaldi-pitch-feats[5.5.1074~1-71f3]:main():compute-kaldi-pitch-feats.cc:107) Processed 50 utterances
+LOG (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:181) Processed 50 utterances
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_152
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_153
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_154
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_155
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_156
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_159
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_16
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_160
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_161
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_162
+LOG (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:181) Processed 60 utterances
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_163
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_164
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_165
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_166
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_167
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_168
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_169
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_17
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_170
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_171
+LOG (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:181) Processed 70 utterances
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_172
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_173
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_174
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_175
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_177
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_178
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_179
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_18
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_182
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_183
+LOG (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:181) Processed 80 utterances
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_184
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_185
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_186
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_187
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_188
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_189
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_19
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_190
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_191
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_192
+LOG (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:181) Processed 90 utterances
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_193
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_194
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_195
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_196
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_197
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_198
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_2
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_20
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_200
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_201
+LOG (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:181) Processed 100 utterances
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_202
+VLOG[2] (compute-kaldi-pitch-feats[5.5.1074~1-71f3]:main():compute-kaldi-pitch-feats.cc:107) Processed 100 utterances
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_204
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_206
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_207
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_208
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_209
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_210
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_211
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_212
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_213
+LOG (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:181) Processed 110 utterances
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_214
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_215
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_216
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_219
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_22
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_220
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_221
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_222
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_227
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_229
+LOG (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:181) Processed 120 utterances
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_23
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_232
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_233
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_234
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_235
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_236
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_237
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_238
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_24
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_240
+LOG (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:181) Processed 130 utterances
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_241
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_242
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_243
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_244
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_245
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_246
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_247
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_248
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_249
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_25
+LOG (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:181) Processed 140 utterances
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_250
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_252
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_253
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_254
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_255
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_258
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_259
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_26
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_260
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_262
+LOG (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:181) Processed 150 utterances
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_264
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_267
+VLOG[2] (compute-kaldi-pitch-feats[5.5.1074~1-71f3]:main():compute-kaldi-pitch-feats.cc:107) Processed 150 utterances
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_268
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_27
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_270
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_272
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_273
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_274
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_275
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_276
+LOG (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:181) Processed 160 utterances
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_277
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_278
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_279
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_28
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_280
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_281
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_282
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_283
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_284
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_285
+LOG (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:181) Processed 170 utterances
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_286
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_287
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_289
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_29
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_290
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_291
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_292
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_294
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_295
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_296
+LOG (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:181) Processed 180 utterances
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_297
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_298
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_299
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_3
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_30
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_300
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_301
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_302
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_303
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_304
+LOG (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:181) Processed 190 utterances
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_305
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_306
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_307
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_308
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_309
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_31
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_310
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_312
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_314
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_316
+LOG (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:181) Processed 200 utterances
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_317
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_318
+VLOG[2] (compute-kaldi-pitch-feats[5.5.1074~1-71f3]:main():compute-kaldi-pitch-feats.cc:107) Processed 200 utterances
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_319
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_32
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_320
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_321
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_322
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_323
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_324
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_326
+LOG (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:181) Processed 210 utterances
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_328
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_329
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_332
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_333
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_334
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_335
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_336
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_338
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_339
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_34
+LOG (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:181) Processed 220 utterances
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_340
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_341
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_343
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_344
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_345
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_346
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_347
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_348
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_349
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_35
+LOG (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:181) Processed 230 utterances
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_350
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_351
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_352
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_353
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_354
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_356
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_358
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_359
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_36
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_360
+LOG (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:181) Processed 240 utterances
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_361
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_362
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_364
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_365
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_37
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_39
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_4
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_40
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_41
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_42
+LOG (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:181) Processed 250 utterances
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_43
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_45
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_46
+VLOG[2] (compute-kaldi-pitch-feats[5.5.1074~1-71f3]:main():compute-kaldi-pitch-feats.cc:107) Processed 250 utterances
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_47
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_48
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_49
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_5
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_50
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_51
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_52
+LOG (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:181) Processed 260 utterances
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_54
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_56
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_57
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_58
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_59
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_6
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_60
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_61
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_63
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_64
+LOG (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:181) Processed 270 utterances
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_65
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_66
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_67
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_7
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_71
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_72
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_73
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_74
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_77
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_78
+LOG (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:181) Processed 280 utterances
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_8
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_80
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_81
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_82
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_84
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_85
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_86
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_87
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_88
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_89
+LOG (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:181) Processed 290 utterances
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_9
+LOG (compute-kaldi-pitch-feats[5.5.1074~1-71f3]:main():compute-kaldi-pitch-feats.cc:110) Done 292 utterances, 0 with errors.
+LOG (process-kaldi-pitch-feats[5.5.1074~1-71f3]:main():process-kaldi-pitch-feats.cc:85) Post-processed pitch for 292 utterances.
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_90
+VLOG[2] (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:182) Processed features for key MC01_91
+LOG (compute-fbank-feats[5.5.1074~1-71f3]:main():compute-fbank-feats.cc:185)  Done 292 out of 292 utterances.
+LOG (paste-feats[5.5.1074~1-71f3]:main():paste-feats.cc:158) Done 292 utts, errors on 0
+LOG (copy-feats[5.5.1074~1-71f3]:main():copy-feats.cc:143) Copied 292 feature matrices.
+# Accounting: time=1 threads=1
+# Ended (code 0) at Thu Aug  3 11:41:54 IST 2023, elapsed time 1 seconds

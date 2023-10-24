@@ -1,0 +1,6 @@
+%WER 0.00 [ 0 / 1867, 0 ins, 0 del, 0 sub ] exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/decode/wer_10
+%WER 0.05 [ 1 / 1867, 0 ins, 0 del, 1 sub ] exp_FG/LSTM/decode/wer_13
+%WER 0.05 [ 1 / 1867, 0 ins, 0 del, 1 sub ] exp_FG/blstm4i/decode/wer_10
+%WER 1.29 [ 24 / 1867, 10 ins, 0 del, 14 sub ] exp_FG/ldamllt/decode/wer_16
+%WER 1.34 [ 25 / 1867, 5 ins, 2 del, 18 sub ] exp_FG/mono/decode/wer_15
+%WER 1.29 [ 24 / 1867, 10 ins, 0 del, 14 sub ] exp_FG/tri_8_2000/decode/wer_26

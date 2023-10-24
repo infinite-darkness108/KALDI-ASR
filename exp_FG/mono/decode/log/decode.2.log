@@ -1,0 +1,150 @@
+# gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp_FG/mono/graph/words.txt exp_FG/mono/final.mdl exp_FG/mono/graph/HCLG.fst "ark,s,cs:apply-cmvn  --utt2spk=ark:data/test/split10/2/utt2spk scp:data/test/split10/2/cmvn.scp scp:data/test/split10/2/feats.scp ark:- | add-deltas  ark:- ark:- |" "ark:|gzip -c > exp_FG/mono/decode/lat.2.gz" 
+# Started at Thu Aug  3 11:45:58 IST 2023
+#
+gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp_FG/mono/graph/words.txt exp_FG/mono/final.mdl exp_FG/mono/graph/HCLG.fst 'ark,s,cs:apply-cmvn  --utt2spk=ark:data/test/split10/2/utt2spk scp:data/test/split10/2/cmvn.scp scp:data/test/split10/2/feats.scp ark:- | add-deltas  ark:- ark:- |' 'ark:|gzip -c > exp_FG/mono/decode/lat.2.gz' 
+add-deltas ark:- ark:- 
+apply-cmvn --utt2spk=ark:data/test/split10/2/utt2spk scp:data/test/split10/2/cmvn.scp scp:data/test/split10/2/feats.scp ark:- 
+FC02_106 manxal kayirxeu 
+LOG (gmm-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance FC02_106 is -7.80717 over 177 frames.
+FC02_107 padxa padxa 
+LOG (gmm-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance FC02_107 is -7.64391 over 151 frames.
+FC02_11 yaanai pilxirxum 
+LOG (gmm-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance FC02_11 is -7.3803 over 266 frames.
+FC02_119 paanam 
+LOG (gmm-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance FC02_119 is -7.14053 over 133 frames.
+FC02_124 pazham 
+LOG (gmm-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance FC02_124 is -7.4848 over 169 frames.
+FC02_128 kariim 
+LOG (gmm-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance FC02_128 is -7.03237 over 143 frames.
+FC02_136 padakkam 
+LOG (gmm-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance FC02_136 is -7.23341 over 150 frames.
+FC02_142 taagam 
+LOG (gmm-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance FC02_142 is -7.35149 over 143 frames.
+FC02_143 sidambaram 
+LOG (gmm-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance FC02_143 is -7.49973 over 172 frames.
+FC02_145 maadam 
+LOG (gmm-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance FC02_145 is -7.53711 over 127 frames.
+FC02_169 padxar 
+LOG (gmm-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance FC02_169 is -7.4344 over 111 frames.
+FC02_175 puttagam 
+LOG (gmm-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance FC02_175 is -7.43154 over 137 frames.
+FC02_179 tanddai 
+LOG (gmm-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance FC02_179 is -7.21376 over 127 frames.
+FC02_180 tanddai 
+LOG (gmm-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance FC02_180 is -7.06464 over 143 frames.
+FC02_186 kani 
+LOG (gmm-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance FC02_186 is -7.17261 over 140 frames.
+FC02_188 manxal 
+LOG (gmm-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance FC02_188 is -7.13322 over 143 frames.
+FC02_191 maadulxai 
+LOG (gmm-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance FC02_191 is -7.65269 over 182 frames.
+FC02_204 aarjidam 
+LOG (gmm-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance FC02_204 is -7.45527 over 150 frames.
+FC02_205 kaanjjipuram 
+LOG (gmm-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance FC02_205 is -7.81639 over 162 frames.
+FC02_214 puliyaip paartteu anjjeu 
+LOG (gmm-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance FC02_214 is -7.89245 over 272 frames.
+FC02_232 kaigalxai inxai 
+LOG (gmm-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance FC02_232 is -7.86784 over 224 frames.
+FC02_233 isxtxam pool waazhalaam 
+LOG (gmm-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance FC02_233 is -7.9771 over 273 frames.
+FC02_234 iisaana muulaiyil amaraadee 
+LOG (gmm-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance FC02_234 is -8.00503 over 299 frames.
+FC02_236 kaayccaleukkeu suudxeu kanjji sirxanddadeu 
+LOG (gmm-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance FC02_236 is -8.3039 over 383 frames.
+FC02_239 unxmai kai kodxeukkum 
+LOG (gmm-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance FC02_239 is -8.62061 over 224 frames.
+FC02_243 tolaikkaatxci oreu uudxagam 
+LOG (gmm-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance FC02_243 is -7.83561 over 422 frames.
+FC02_244 talaiwar warugai uurjidam aanadeu 
+LOG (gmm-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance FC02_244 is -8.21982 over 383 frames.
+FC02_247 adeu endda uur 
+LOG (gmm-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance FC02_247 is -8.04954 over 250 frames.
+FC02_249 pirxareukkeu suuniyam seyyaadee 
+LOG (gmm-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance FC02_249 is -8.23037 over 325 frames.
+FC02_250 inrxeu palxlxiyil ezhutteup pootxtxi 
+LOG (gmm-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance FC02_250 is -8.17173 over 399 frames.
+FC02_251 kanrxeu unxaweukkeu eenggum 
+LOG (gmm-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance FC02_251 is -8.24871 over 325 frames.
+FC02_252 enrxaal teeytteuk kulxi 
+LOG (gmm-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance FC02_252 is -8.04172 over 270 frames.
+FC02_256 eewuganxai eenddeu 
+LOG (gmm-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance FC02_256 is -7.67814 over 283 frames.
+FC02_257 awan eezhai illai 
+LOG (gmm-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance FC02_257 is -7.96914 over 250 frames.
+FC02_26 ganxeesanait tudi 
+LOG (gmm-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance FC02_26 is -7.79383 over 240 frames.
+FC02_263 idxa odeukkiidxeu sey 
+LOG (gmm-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance FC02_263 is -8.03261 over 257 frames.
+FC02_264 ndadxitteuk oppiidxeu tawarxeu 
+LOG (gmm-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance FC02_264 is -8.41536 over 283 frames.
+FC02_266 biins oruwagai kaay 
+LOG (gmm-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance FC02_266 is -8.01941 over 289 frames.
+FC02_267 awasara oli ezhuppeu 
+LOG (gmm-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance FC02_267 is -8.3768 over 273 frames.
+FC02_269 ndadxai ozhunggeu sey 
+LOG (gmm-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance FC02_269 is -7.88796 over 241 frames.
+FC02_27 padxitteup patxtxam perxeu 
+LOG (gmm-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance FC02_27 is -7.36583 over 272 frames.
+FC02_273 oolaiccuwadxi padxi 
+LOG (gmm-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance FC02_273 is -8.18811 over 243 frames.
+FC02_276 waazhkkai kasxtxam ndirxainddadeu 
+LOG (gmm-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance FC02_276 is -8.11623 over 305 frames.
+FC02_277 kaasxmiir wadxakkeu pagudiyil ulxlxadeu 
+LOG (gmm-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance FC02_277 is -8.11911 over 428 frames.
+FC02_286 koowil gooburam uyaramaanadeu 
+LOG (gmm-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance FC02_286 is -8.42077 over 318 frames.
+FC02_289 samacciir kalwi murxaiyaanadeu 
+LOG (gmm-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance FC02_289 is -8.11983 over 315 frames.
+FC02_298 asuran tawam irunddaan 
+LOG (gmm-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance FC02_298 is -8.274 over 305 frames.
+FC02_3 aasaiyaik kurxai 
+LOG (gmm-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance FC02_3 is -7.22242 over 272 frames.
+FC02_310 ganxeesx tanddai isxtxam seyal seywaan 
+LOG (gmm-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance FC02_310 is -8.55498 over 357 frames.
+FC02_314 toonrxiya pugazhin toonrxuga 
+LOG (gmm-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance FC02_314 is -8.5525 over 305 frames.
+FC02_317 paambin ndanjjeu kodxiyadeu 
+LOG (gmm-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance FC02_317 is -8.21295 over 321 frames.
+FC02_328 indda raajaa endda baasxai peesinaar 
+LOG (gmm-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance FC02_328 is -8.38501 over 409 frames.
+FC02_332 inrxeu puujaiyil kalanddeu kolx 
+LOG (gmm-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance FC02_332 is -7.95945 over 422 frames.
+FC02_337 raagi poosxaakkaana unxaweu 
+LOG (gmm-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance FC02_337 is -8.03203 over 380 frames.
+FC02_343 tozhilil muuladanam poodxa weenxdxum 
+LOG (gmm-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance FC02_343 is -8.51055 over 347 frames.
+FC02_345 inrxeu waay unggalx enggeu ulxlxadeu 
+LOG (gmm-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance FC02_345 is -8.18073 over 370 frames.
+FC02_350 laksxmi muga laksxanxam ulxlxa penx 
+LOG (gmm-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance FC02_350 is -8.69132 over 402 frames.
+FC02_45 jagattinai azhittidxuwoom 
+LOG (gmm-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance FC02_45 is -7.75213 over 314 frames.
+FC02_48 sanggee muzhanggeu 
+LOG (gmm-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance FC02_48 is -7.43217 over 256 frames.
+FC02_51 kunggumam siwappeu 
+LOG (gmm-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance FC02_51 is -8.09143 over 240 frames.
+FC02_55 makkalx mannarai waazhttinaargalx 
+LOG (gmm-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance FC02_55 is -8.01427 over 356 frames.
+FC02_58 iiwadeu ndalladeu 
+LOG (gmm-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance FC02_58 is -7.62556 over 214 frames.
+LOG (apply-cmvn[5.5.1074~1-71f3]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 69 utterances, errors on 0
+FC02_64 kalwiyee sirxandda selwam 
+LOG (gmm-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance FC02_64 is -7.76504 over 298 frames.
+FC02_78 wallawaneukkeup pullum aayudam 
+LOG (gmm-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance FC02_78 is -7.91404 over 361 frames.
+FC02_79 tiiraakkoobam pooraay mudxiyum 
+LOG (gmm-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance FC02_79 is -7.74756 over 382 frames.
+FC02_85 aasaiyaay tinbadeu wellam 
+LOG (gmm-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance FC02_85 is -7.68063 over 351 frames.
+FC02_91 ndooyatxrxa waazhwee kurxaiwatxrxa selwam 
+LOG (gmm-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance FC02_91 is -8.04756 over 409 frames.
+FC02_97 patxtxaam puucci 
+LOG (gmm-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance FC02_97 is -7.43156 over 245 frames.
+FC02_99 adxakkamee azhageu 
+LOG (gmm-latgen-faster[5.5.1074~1-71f3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance FC02_99 is -7.89556 over 224 frames.
+LOG (gmm-latgen-faster[5.5.1074~1-71f3]:main():gmm-latgen-faster.cc:176) Time taken 0.869425s: real-time factor assuming 100 frames/sec is 0.00469655
+LOG (gmm-latgen-faster[5.5.1074~1-71f3]:main():gmm-latgen-faster.cc:179) Done 69 utterances, failed for 0
+LOG (gmm-latgen-faster[5.5.1074~1-71f3]:main():gmm-latgen-faster.cc:181) Overall log-likelihood per frame is -7.95481 over 18512 frames.
+# Accounting: time=1 threads=1
+# Ended (code 0) at Thu Aug  3 11:45:59 IST 2023, elapsed time 1 seconds

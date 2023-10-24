@@ -1,0 +1,10 @@
+# ali-to-post "ark:gunzip -c exp_FG/tri_8_2000_ali/ali.1.gz|" ark:- | post-to-tacc --per-pdf=true exp_FG/tri_8_2000_ali/final.mdl ark:- exp_FG/LSTM/pdf_counts.1 
+# Started at Thu Aug  3 11:13:51 IST 2023
+#
+ali-to-post 'ark:gunzip -c exp_FG/tri_8_2000_ali/ali.1.gz|' ark:- 
+post-to-tacc --per-pdf=true exp_FG/tri_8_2000_ali/final.mdl ark:- exp_FG/LSTM/pdf_counts.1 
+LOG (ali-to-post[5.5.1074~1-71f3]:main():ali-to-post.cc:73) Converted 285 alignments.
+LOG (post-to-tacc[5.5.1074~1-71f3]:main():post-to-tacc.cc:89) accumulate counts per pdf-id
+LOG (post-to-tacc[5.5.1074~1-71f3]:main():post-to-tacc.cc:104) Done computing transition stats over 285 utterances; wrote stats to exp_FG/LSTM/pdf_counts.1
+# Accounting: time=0 threads=1
+# Ended (code 0) at Thu Aug  3 11:13:51 IST 2023, elapsed time 0 seconds

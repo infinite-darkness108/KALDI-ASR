@@ -1,0 +1,9 @@
+# compile-train-graphs --read-disambig-syms=data/lang_bigram/phones/disambig.int exp_FG/ldamllt/tree exp_FG/ldamllt/1.mdl data/lang_bigram/L.fst "ark:utils/sym2int.pl --map-oov 1 -f 2- data/lang_bigram/words.txt < data/train/split10/4/text |" "ark:|gzip -c >exp_FG/ldamllt/fsts.4.gz" 
+# Started at Thu Aug  3 11:13:30 IST 2023
+#
+compile-train-graphs --read-disambig-syms=data/lang_bigram/phones/disambig.int exp_FG/ldamllt/tree exp_FG/ldamllt/1.mdl data/lang_bigram/L.fst 'ark:utils/sym2int.pl --map-oov 1 -f 2- data/lang_bigram/words.txt < data/train/split10/4/text |' 'ark:|gzip -c >exp_FG/ldamllt/fsts.4.gz' 
+sym2int.pl: replacing gursssswai with 1
+** Replaced 1 instances of OOVs with 1
+LOG (compile-train-graphs[5.5.1074~1-71f3]:main():compile-train-graphs.cc:147) compile-train-graphs: succeeded for 295 graphs, failed for 0
+# Accounting: time=0 threads=1
+# Ended (code 0) at Thu Aug  3 11:13:30 IST 2023, elapsed time 0 seconds

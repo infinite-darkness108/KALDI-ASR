@@ -1,2 +1,0 @@
-sum-tree-stats exp_FG/tri_8_2000/treeacc exp_FG/tri_8_2000/1.treeacc exp_FG/tri_8_2000/10.treeacc exp_FG/tri_8_2000/2.treeacc exp_FG/tri_8_2000/3.treeacc exp_FG/tri_8_2000/4.treeacc exp_FG/tri_8_2000/5.treeacc exp_FG/tri_8_2000/6.treeacc exp_FG/tri_8_2000/7.treeacc exp_FG/tri_8_2000/8.treeacc exp_FG/tri_8_2000/9.treeacc 
-LOG (sum-tree-stats[5.5.1074~1-71f3]:main():sum-tree-stats.cc:88) Wrote summed accs ( 8331 individual stats)

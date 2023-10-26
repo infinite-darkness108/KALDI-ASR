@@ -1,9 +1,0 @@
-# nnet3-am-adjust-priors exp_FG/LSTM/combined.mdl exp_FG/LSTM/post.combined.vec exp_FG/LSTM/final.mdl 
-# Started at Thu Aug  3 11:41:51 IST 2023
-#
-nnet3-am-adjust-priors exp_FG/LSTM/combined.mdl exp_FG/LSTM/post.combined.vec exp_FG/LSTM/final.mdl 
-LOG (nnet3-am-adjust-priors[5.5.1074~1-71f3]:PrintPriorDiagnostics():nnet3-am-adjust-priors.cc:58) Adjusting priors: largest absolute difference was for pdf 0, 0.219186 -> 0.217806
-LOG (nnet3-am-adjust-priors[5.5.1074~1-71f3]:PrintPriorDiagnostics():nnet3-am-adjust-priors.cc:61) Adjusting priors: K-L divergence from old to new is 0.00660353
-LOG (nnet3-am-adjust-priors[5.5.1074~1-71f3]:main():nnet3-am-adjust-priors.cc:137) Modified priors of neural network model and wrote it to exp_FG/LSTM/final.mdl
-# Accounting: time=0 threads=1
-# Ended (code 0) at Thu Aug  3 11:41:51 IST 2023, elapsed time 0 seconds

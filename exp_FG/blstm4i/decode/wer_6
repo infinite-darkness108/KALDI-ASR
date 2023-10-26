@@ -1,4 +1,0 @@
-compute-wer --text --mode=present ark:exp_FG/blstm4i/decode/scoring/test_filt.txt ark,p:- 
-%WER 0.37 [ 7 / 1867, 0 ins, 0 del, 7 sub ]
-%SER 0.82 [ 6 / 730 ]
-Scored 730 sentences, 0 not present in hyp.

@@ -1,9 +1,0 @@
-# ali-to-phones --write-lengths=true exp_FG/mono/decode/../final.mdl "ark:gunzip -c exp_FG/mono/decode/ali_tmp.1.gz|" ark,t:- | perl -ne 'chomp;s/^\S+\s*//;@a=split /\s;\s/, $_;$count{"begin ".$a[$0]."\n"}++;
-  if(@a>1){$count{"end ".$a[-1]."\n"}++;}for($i=0;$i<@a;$i++){$count{"all ".$a[$i]."\n"}++;}
-  END{for $k (sort keys %count){print "$count{$k} $k"}}' | gzip -c > exp_FG/mono/decode/phone_stats.1.gz 
-# Started at Thu Aug  3 11:46:00 IST 2023
-#
-ali-to-phones --write-lengths=true exp_FG/mono/decode/../final.mdl 'ark:gunzip -c exp_FG/mono/decode/ali_tmp.1.gz|' ark,t:- 
-LOG (ali-to-phones[5.5.1074~1-71f3]:main():ali-to-phones.cc:134) Done 80 utterances.
-# Accounting: time=0 threads=1
-# Ended (code 0) at Thu Aug  3 11:46:00 IST 2023, elapsed time 0 seconds

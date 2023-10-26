@@ -1,5 +1,0 @@
-# cat exp_FG/blstm4i/decode/scoring/7.tra | utils/int2sym.pl -f 2- exp_FG/blstm4i/words.txt | sed s:\<UNK\>::g | compute-wer --text --mode=present ark:exp_FG/blstm4i/decode/scoring/test_filt.txt ark,p:- >& exp_FG/blstm4i/decode/wer_7 
-# Started at Thu Aug  3 11:47:15 IST 2023
-#
-# Accounting: time=0 threads=1
-# Ended (code 0) at Thu Aug  3 11:47:15 IST 2023, elapsed time 0 seconds

@@ -1,4 +1,0 @@
-compute-wer --text --mode=present ark:exp_FG/ldamllt/decode/scoring/test_filt.txt ark,p:- 
-%WER 1.87 [ 35 / 1867, 12 ins, 0 del, 23 sub ]
-%SER 3.01 [ 22 / 730 ]
-Scored 730 sentences, 0 not present in hyp.

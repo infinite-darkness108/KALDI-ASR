@@ -1,9 +1,0 @@
-# nnet-am-mixup --min-count=10 --num-mixtures=5000 exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/14.mdl exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/14.mdl 
-# Started at Thu Aug  3 11:10:18 IST 2023
-#
-nnet-am-mixup --min-count=10 --num-mixtures=5000 exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/14.mdl exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/14.mdl 
-LOG (nnet-am-mixup[5.5.1074~1-71f3]:GiveNnetCorrectTopology():mixup-nnet.cc:46) Adding SumGroupComponent to neural net.
-LOG (nnet-am-mixup[5.5.1074~1-71f3]:MixUp():mixup-nnet.cc:214) Mixed up from dimension of 1280 to 5000 in the softmax layer.
-LOG (nnet-am-mixup[5.5.1074~1-71f3]:main():nnet-am-mixup.cc:74) Mixed up neural net from exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/14.mdl and wrote it to exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/14.mdl
-# Accounting: time=0 threads=1
-# Ended (code 0) at Thu Aug  3 11:10:18 IST 2023, elapsed time 0 seconds

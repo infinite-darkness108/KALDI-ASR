@@ -1,7 +1,0 @@
-# nnet-subset-egs --n=10000 ark:exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/egs/train_subset_all.egs ark:exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/egs/train_combine.egs 
-# Started at Thu Aug  3 11:08:32 IST 2023
-#
-nnet-subset-egs --n=10000 ark:exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/egs/train_subset_all.egs ark:exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/egs/train_combine.egs 
-LOG (nnet-subset-egs[5.5.1074~1-71f3]:main():nnet-subset-egs.cc:93) Selected a subset of 10000 out of 83370 neural-network training examples 
-# Accounting: time=1 threads=1
-# Ended (code 0) at Thu Aug  3 11:08:33 IST 2023, elapsed time 1 seconds

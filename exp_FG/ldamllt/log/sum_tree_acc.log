@@ -1,7 +1,0 @@
-# sum-tree-stats exp_FG/ldamllt/treeacc exp_FG/ldamllt/1.treeacc exp_FG/ldamllt/10.treeacc exp_FG/ldamllt/2.treeacc exp_FG/ldamllt/3.treeacc exp_FG/ldamllt/4.treeacc exp_FG/ldamllt/5.treeacc exp_FG/ldamllt/6.treeacc exp_FG/ldamllt/7.treeacc exp_FG/ldamllt/8.treeacc exp_FG/ldamllt/9.treeacc 
-# Started at Thu Aug  3 11:13:29 IST 2023
-#
-sum-tree-stats exp_FG/ldamllt/treeacc exp_FG/ldamllt/1.treeacc exp_FG/ldamllt/10.treeacc exp_FG/ldamllt/2.treeacc exp_FG/ldamllt/3.treeacc exp_FG/ldamllt/4.treeacc exp_FG/ldamllt/5.treeacc exp_FG/ldamllt/6.treeacc exp_FG/ldamllt/7.treeacc exp_FG/ldamllt/8.treeacc exp_FG/ldamllt/9.treeacc 
-LOG (sum-tree-stats[5.5.1074~1-71f3]:main():sum-tree-stats.cc:88) Wrote summed accs ( 8319 individual stats)
-# Accounting: time=0 threads=1
-# Ended (code 0) at Thu Aug  3 11:13:29 IST 2023, elapsed time 0 seconds

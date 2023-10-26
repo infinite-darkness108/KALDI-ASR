@@ -1,2 +1,0 @@
-gmm-transform-means exp_FG/ldamllt/6.mat.new exp_FG/ldamllt/6.mdl exp_FG/ldamllt/6.mdl 
-LOG (gmm-transform-means[5.5.1074~1-71f3]:main():gmm-transform-means.cc:103) Written model to exp_FG/ldamllt/6.mdl

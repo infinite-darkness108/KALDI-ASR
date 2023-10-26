@@ -1,7 +1,0 @@
-# compile-train-graphs --read-disambig-syms=data/lang_bigram/phones/disambig.int exp_FG/ldamllt/tree exp_FG/ldamllt/1.mdl data/lang_bigram/L.fst "ark:utils/sym2int.pl --map-oov 1 -f 2- data/lang_bigram/words.txt < data/train/split10/1/text |" "ark:|gzip -c >exp_FG/ldamllt/fsts.1.gz" 
-# Started at Thu Aug  3 11:13:30 IST 2023
-#
-compile-train-graphs --read-disambig-syms=data/lang_bigram/phones/disambig.int exp_FG/ldamllt/tree exp_FG/ldamllt/1.mdl data/lang_bigram/L.fst 'ark:utils/sym2int.pl --map-oov 1 -f 2- data/lang_bigram/words.txt < data/train/split10/1/text |' 'ark:|gzip -c >exp_FG/ldamllt/fsts.1.gz' 
-LOG (compile-train-graphs[5.5.1074~1-71f3]:main():compile-train-graphs.cc:147) compile-train-graphs: succeeded for 285 graphs, failed for 0
-# Accounting: time=0 threads=1
-# Ended (code 0) at Thu Aug  3 11:13:30 IST 2023, elapsed time 0 seconds

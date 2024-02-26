@@ -1,0 +1,149 @@
+#!/bin/tcsh -f
+
+if ($# != 4) then
+	echo "Arg1 --> character transcription"
+	echo "Arg2 --> lists/phoneset_uyir"
+	echo "Arg3 --> lists/phoneset_mei"
+	echo "Arg4 --> lists/phoneset_uyirmei"
+	exit(-1)
+endif
+
+set num_char = `cat $1 |wc -w`
+
+set start = 1
+
+while ($start <= $num_char)
+	set char1 = `cat $1 |head -$start |tail -1`
+	set a0 = 0
+	set b0 = 0
+	set c0 = 0
+	set a0 = `grep -w $char1 $2 |wc -l` # To check the 1st char is uyir
+	set b0 = `grep -w $char1 $3 |wc -l` # To check the 1st char is mei
+	set c0 = `grep -w $char1 $4 |wc -l` # To check the 1st char is uyirmei
+	if ($a0 == 1) then	# To check for V followed by
+		@ start1 = $start + 1
+		set char2 = `cat $1 |head -$start1 |tail -1`
+		@ start2 = $start + 2
+		set char3 = `cat $1 |head -$start2 |tail -1`
+		@ start3 = $start + 3
+		set char4 = `cat $1 |head -$start3 |tail -1`
+		@ start4 = $start + 4
+                set char5 = `cat $1 |head -$start4 |tail -1`
+		set a1 = 0
+		set a2 = 0
+		set a3 = 0
+		set a4 = 0
+		set a5 = 0
+		set a6 = 0
+		set a1 = `grep -w $char2 $3 |wc -l`	# Checks 2nd char is mei	
+		set a2 = `grep -w $char3 $3 |wc -l`	# Checks 3rd char is mei
+		set a3 = `grep -w $char2 $4 |wc -l`	# Checks 2nd char is uyirmei
+		set a4 = `grep -w $char3 $4 |wc -l`	# Checks 3rd char is uyirmei
+		set a5 = `grep -w $char4 $3 |wc -l`	# Checks 4th char is mei
+		set a6 = `grep -w $char5 $3 |wc -l`	# Checks 5th char is mei
+		if (($a1 == 1 && $a2 == 1 && $a5 == 1 && $a6 == 1) && ($start <= $num_char - 4)) then	# Check for VCCCC unit eg. armst in armstrong
+			echo $char1$char2$char3$char4$char5
+			@ start = $start + 5
+		else if (($a1 == 1 && $a2 == 1 && $a5 == 1) && ($start <= $num_char - 3)) then	# Check for VCCC unit eg. arms
+			echo $char1$char2$char3$char4
+			@ start = $start + 4
+		else if (($a1 == 1 && $a2 == 1) && ($start <= $num_char - 2)) then		# Check for VCC unit eg. arm
+			echo $char1$char2$char3
+			@ start = $start + 3
+		else if (($a1 == 1) && ($start <= $num_char - 1)) then		# Check for VC unit eg. an
+			echo $char1$char2
+			@ start = $start + 2
+		else 
+			echo $char1				# If V is followed by another CV or V displays V unit alone.
+			@ start++
+		endif	
+	else if ($b0 == 1) then					# To check for C followed by
+		@ start1 = $start + 1
+                set char2 = `cat $1 |head -$start1 |tail -1`
+                @ start2 = $start + 2
+                set char3 = `cat $1 |head -$start2 |tail -1`
+                @ start3 = $start + 3
+                set char4 = `cat $1 |head -$start3 |tail -1`
+		@ start4 = $start + 4
+		set char5 = `cat $1 |head -$start4 |tail -1`
+		@ start5 = $start + 5
+		set char6 = `cat $1 |head -$start5 |tail -1`
+                set b1 = 0
+                set b2 = 0
+                set b3 = 0
+                set b4 = 0
+                set b5 = 0
+		set b6 = 0
+		set b7 = 0
+                set b1 = `grep -w $char2 $3 |wc -l`	# Checks 2nd char is mei
+                set b2 = `grep -w $char2 $4 |wc -l`	# Checks 2nd char is uyirmei
+		set b3 = `grep -w $char3 $3 |wc -l`	# Checks 3rd char is mei
+                set b4 = `grep -w $char3 $4 |wc -l`	# Checks 3rd char is uyirmei
+                set b5 = `grep -w $char4 $3 |wc -l`	# Checks 4th char is mei
+                set b6 = `grep -w $char5 $3 |wc -l`	# Checks 5th char is mei
+		set b7 = `grep -w $char6 $3 |wc -l`	# Checks 6th char is mei
+		if (($b1 == 1 && $b4 == 1 && $b5 == 1) && ($start <= $num_char - 3)) then      		# Check for CCCVC unit eg. skrIn
+                        echo $char1$char2$char3$char4
+                        @ start = $start + 4               
+		else if (($b1 == 1 && $b4 == 1) && ($start <= $num_char - 2)) then      		# Check for CCCV unit eg. skrU
+                        echo $char1$char2$char3
+                        @ start = $start + 3
+                else if (($b2 == 1 && $b3 == 1 && $b5 == 1 && $b6 == 1 && $b7 == 1) && ($start <= $num_char - 5)) then		# Check for CCVCCCC unit
+                        echo $char1$char2$char3$char4$char5$char6
+                        @ start = $start + 6
+                else if (($b2 == 1 && $b3 == 1 && $b5 == 1 && $b6 == 1) && ($start <= $num_char - 4)) then			# Check for CCVCCC unit eg. spOrTs
+                        echo $char1$char2$char3$char4$char5
+                        @ start = $start + 5
+                else if (($b2 == 1 && $b3 == 1 && $b5 == 1) && ($start <= $num_char - 3)) then					# Check for CCVCC unit eg. spArk
+			echo $char1$char2$char3$char4
+			@ start = $start + 4
+		else if (($b2 == 1 && $b3 == 1) && ($start <= $num_char - 2)) then						# Check for CCVC unit eg. spAT
+			echo $char1$char2$char3
+			@ start = $start + 3
+		else if (($b2 == 1) && ($start <= $num_char - 1)) then								# Check for CCV unit eg. srI
+			echo $char1$char2
+			@ start = $start + 2
+		else
+                        echo $char1         # If C is not followed by another CV or V displays C unit alone. eg. mu l hhanq in aartidata where l is displayed as it is.
+                        @ start++
+                endif
+	else if ($c0 == 1) then					# To check for CV followed by
+		@ start1 = $start + 1
+                set char2 = `cat $1 |head -$start1 |tail -1`
+                @ start2 = $start + 2
+                set char3 = `cat $1 |head -$start2 |tail -1`
+                @ start3 = $start + 3
+                set char4 = `cat $1 |head -$start3 |tail -1`
+                @ start4 = $start + 4
+                set char5 = `cat $1 |head -$start4 |tail -1`
+                @ start5 = $start + 5
+                set char6 = `cat $1 |head -$start5 |tail -1`
+                set c1 = 0
+                set c2 = 0
+                set c3 = 0
+                set c4 = 0
+                set c1 = `grep -w $char2 $3 |wc -l`     # Checks 2nd char is mei
+                set c2 = `grep -w $char3 $3 |wc -l`     # Checks 3rd char is mei
+                set c3 = `grep -w $char4 $3 |wc -l`     # Checks 4th char is mei
+                set c4 = `grep -w $char5 $3 |wc -l`     # Checks 5th char is mei
+                if (($c1 == 1 && $c2 == 1 && $c3 == 1 && $c4 == 1) && ($start <= $num_char - 4)) then		# Check for CVCCCC unit eg. varlfT
+                        echo $char1$char2$char3$char4$char5
+                        @ start = $start + 5
+                else if (($c1 == 1 && $c2 == 1 && $c3 == 1) && ($start <= $num_char - 3)) then			# Check for CVCCC unit eg. hends
+                        echo $char1$char2$char3$char4
+                        @ start = $start + 4
+                else if (($c1 == 1 && $c2 == 1) && ($start <= $num_char - 2)) then                             # Check for CVCC unit eg. varth
+                        echo $char1$char2$char3
+                        @ start = $start + 3
+                else if (($c1 == 1) && ($start <= $num_char - 1)) then                                         # Check for CVC unit eg. chak
+                        echo $char1$char2
+                        @ start = $start + 2
+                else
+                        echo $char1         # If CV is followed by another CV or V displays CV unit alone.
+                        @ start++
+                endif
+	else
+		echo $char1
+		@ start++
+	endif
+end

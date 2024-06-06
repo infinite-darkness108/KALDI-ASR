@@ -2,6 +2,7 @@
 
 # THREE MUSTS - 1. data/local/dict/lexicon.txt     2. wav/$spk_id/$utt_id.wav     3. ./text utt_id /t transliterated_text
 
+# To prepare the text file, text_prep.py will be helpful.
 
 ## ## ## ##  BUILD ASR IN TEN STEPS  ## ## ## ##
 
